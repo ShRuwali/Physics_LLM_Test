@@ -1,0 +1,1 @@
+A simple pendulum has a solid sphere of mass (m) 2.5 nanograms with a diameter of 100 nanometer and a string of negligible mass. The distance between the point of support and the center of the spherical mass is L = 50 nanometer. The acceleration due to gravity is 10 m/s$^2$ at the location. Find the time period of this pendulum for small displacements.

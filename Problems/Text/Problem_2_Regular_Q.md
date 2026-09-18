@@ -1,0 +1,1 @@
+A simple pendulum has a solid sphere of mass (m) 2kg and a string of negligible mass. The distance between the point of support and the center of the spherical mass is L = 2 meters, and the radius of the solid sphere is (L/2)=1 meter. The acceleration due to gravity is 10 m/s$^2$ at the location. Find the time period of this pendulum for small displacements.
