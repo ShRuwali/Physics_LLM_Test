@@ -1,0 +1,1 @@
+A solid sphere (a rigid body) of mass (m) 2kg, released from rest on an inclined plane at a height (h) of 7 meters and rolls without slipping. Calculate the velocity of the solid sphere at the bottom of the plane using conservation of energy. The acceleration due to gravity (g) at the location is 10 m/s$^2$.
