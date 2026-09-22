@@ -1,0 +1,1 @@
+A solid sphere (a rigid body) of mass (m) 4 nanograms and diameter of 8 nanometers is released with an initial velocity of 3.001 x10$^8$ m/s from the top of an inclined plane at a height of 6 X 10$^8$ meters on Earth. Calculate the velocity of the solid sphere at the bottom of the plane using conservation of energy. The acceleration due to gravity at the location is 10 m/s$^2$.
