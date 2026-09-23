@@ -1,0 +1,1 @@
+Repository to test accuracy of frontier models, open-weight models, and fine-tuned models to test the accuracy of LLMs in physics based problems.
