@@ -26,7 +26,7 @@ prompt_3= ("You are a physics expert."
                      " All the necessary values required are given in the picture."  
 )
 
-dict_3 = dict.fromkeys(problem_1_keys , prompt_3)
+dict_3 = dict.fromkeys(problem_3_keys , prompt_3)
 
 
 regular_system_prompt = {**dict_1, **dict_2, **dict_3}
@@ -36,11 +36,15 @@ print(regular_system_prompt)
 ## Create a set of detail prompts
 
 detail_system_prompt= {}
-
 for key, value in regular_system_prompt.items():
-    detail_system_prompt[key] = value + ("But if there are any physical laws broken then mention it and"
+    detail_system_prompt[key] = value + (" But if there are any physical laws broken then mention it and"
                                                   " also say of the problem can be solved or not." )
 
-print(detail_system_prompt)
+## remove these keys as there are no detail prompts for these regular question
+remove_keys = ["Problem_1_Regular_Q","Problem_2_Regular_Q","Problem_3_Regular_Q"]
+ 
 
-        
+for key in remove_keys:
+    detail_system_prompt.pop(key, None)     
+
+print(detail_system_prompt)
