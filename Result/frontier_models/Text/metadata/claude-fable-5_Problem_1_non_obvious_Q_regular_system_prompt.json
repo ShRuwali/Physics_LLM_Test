@@ -1,0 +1,14 @@
+{
+    "requested_model": "anthropic/claude-fable-5",
+    "returned_model": "anthropic/claude-fable-5",
+    "response_id": "gen-1790296457-Zo6M9Mf7xV7uDFUHCM2z",
+    "problem_text": "A block of mass (m) = 1 nanogram and length= width = height=1 nanometer slides down an inclined plane from rest. The plane is at a constant angle ($\\theta$) of 30$^o$ with the horizontal. The coefficient of kinetic friction ($\\mu_k$) between the mass and the plane is 0.5. The acceleration due to gravity at the location is 10 m/s$^2$. The block slides down a total distance of 5 meters before it touches the ground. What is the total time taken by the block to travel the 5 meters?",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 230,
+        "output_tokens": 547,
+        "total_tokens": 777
+    }
+}

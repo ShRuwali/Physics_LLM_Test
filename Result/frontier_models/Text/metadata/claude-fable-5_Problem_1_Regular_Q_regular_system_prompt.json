@@ -1,0 +1,14 @@
+{
+    "requested_model": "anthropic/claude-fable-5",
+    "returned_model": "anthropic/claude-fable-5",
+    "response_id": "gen-1790296451-WDS6uolLQqncVqhfNIrl",
+    "problem_text": "A block of mass (m) = 12 kg slides down from rest in an inclined plane. The plane is at a constant angle ($\\theta$) of 30$^o$ with respect to the horizontal. The coefficient of kinetic friction ($\\mu_k$) between the mass and the plane is 0.5. The acceleration due to gravity in the location is 10 m/s$^2$. The block slides down a total distance of 5 meters before it touches the ground. What is the total time taken by the block to travel the 5 meters?",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 219,
+        "output_tokens": 426,
+        "total_tokens": 645
+    }
+}

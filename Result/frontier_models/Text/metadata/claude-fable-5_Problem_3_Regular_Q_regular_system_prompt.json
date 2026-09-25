@@ -1,0 +1,14 @@
+{
+    "requested_model": "anthropic/claude-fable-5",
+    "returned_model": "anthropic/claude-fable-5",
+    "response_id": "gen-1790296574-8LcmPPT5fzM7F6bDkjNe",
+    "problem_text": "A solid sphere (a rigid body) of mass (m) 2kg, released from rest on an inclined plane at a height (h) of 7 meters and rolls without slipping. Calculate the velocity of the solid sphere at the bottom of the plane using conservation of energy. The acceleration due to gravity (g) at the location is 10 m/s$^2$.",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 169,
+        "output_tokens": 462,
+        "total_tokens": 631
+    }
+}
