@@ -1,0 +1,13 @@
+{
+    "requested_model": "openai/gpt-5-nano",
+    "returned_model": "openai/gpt-5-nano",
+    "response_id": "gen-1790328752-W3ftWMFdz3yPAaotu58u",
+    "problem_text": "Problem_1_Regular_Q",
+    "system_prompt": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "total_tokens": 3190
+    }
+}
