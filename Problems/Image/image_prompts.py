@@ -1,6 +1,6 @@
 ## dictionary for regular prompts and system prompts 
 
-problem_1_keys = ["Problem_1_Regular_Q", "Problem_1_Obvious_Q", "Problem_1_non_Obvious_Q"]
+problem_1_keys = ["Problem_1_Regular_Q", "Problem_1_Obvious_Q", "Problem_1_non_obvious_Q"]
 prompt_1= ("You are a physics expert."
                      " From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters."
                      " All the necessary values required are given in the picture."                                           
@@ -9,7 +9,7 @@ prompt_1= ("You are a physics expert."
 dict_1 = dict.fromkeys(problem_1_keys , prompt_1)
 
 
-problem_2_keys = ["Problem_2_Regular_Q", "Problem_2_Obvious_Q", "Problem_2_non_Obvious_Q"]
+problem_2_keys = ["Problem_2_Regular_Q", "Problem_2_Obvious_Q", "Problem_2_non_obvious_Q"]
 prompt_2= ("You are a physics expert."
                      " From the figure provide a brief description and calculate the time period of oscillation for small displacements."
                      " All the necessary values required are given in the picture."  
@@ -18,7 +18,7 @@ prompt_2= ("You are a physics expert."
 dict_2 = dict.fromkeys(problem_2_keys , prompt_2)
 
 
-problem_3_keys = ["Problem_3_Regular_Q", "Problem_3_Obvious_Q", "Problem_3_non_Obvious_Q"]
+problem_3_keys = ["Problem_3_Regular_Q", "Problem_3_Obvious_Q", "Problem_3_non_obvious_Q"]
 prompt_3= ("You are a physics expert."
                      " From the figure provide a brief description and calculate the velocity of the solid sphere (a rigid body) at the bottom of"
                      " the plane using conservation of energy given that the solid sphere rolls without slipping and starts rolling from rest"
