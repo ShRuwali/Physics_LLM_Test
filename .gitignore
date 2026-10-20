@@ -1,2 +1,8 @@
 ## ignore the file
 .env
+
+## dont track the manim code
+Problems/Video/manim_code
+
+## dont track the correct answers
+Problems/correct_answers

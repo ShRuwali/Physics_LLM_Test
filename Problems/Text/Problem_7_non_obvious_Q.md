@@ -1,0 +1,1 @@
+A block of mass (m) 1000 nanograms, length=width=height=100 nanometers and a density (D) of 1.0 x 10$^{12}$ kg/m$^3$ is immersed in sea water using a cable and is at rest. The density of sea water (d) is -1.03 x 10$^3$ kg/m$^3$. The acceleration due to gravity (g) at that location is 10 m/s$^2$ upward. Calculate the tension (T) in the cable.
