@@ -1,0 +1,7 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_7_Obvious_Q",
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the picture. But if there are any physical laws broken then mention it and also say of the problem can be solved or not.",
+    "total_output_tokens": 798,
+    "total_time_taken": 75.14426000000003
+}

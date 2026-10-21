@@ -1,0 +1,7 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_5_non_obvious_Q",
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the picture.",
+    "total_output_tokens": 620,
+    "total_time_taken": 58.440435724000054
+}

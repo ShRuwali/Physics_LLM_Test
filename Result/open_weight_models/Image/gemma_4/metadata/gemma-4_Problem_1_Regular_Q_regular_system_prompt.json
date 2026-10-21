@@ -1,0 +1,7 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_1_Regular_Q",
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture.",
+    "total_output_tokens": 703,
+    "total_time_taken": 66.34866537199991
+}
