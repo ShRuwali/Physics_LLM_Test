@@ -1,0 +1,7 @@
+{
+    "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "problem_text": "A block of mass (m) = 1 nanogram and length= width = height=1 nanometer slides down an inclined plane from rest. The plane is at a constant angle ($\\theta$) of 30$^o$ with the horizontal. The coefficient of kinetic friction ($\\mu_k$) between the mass and the plane is 0.50. The acceleration due to gravity at the location is 10.0 m/s$^2$. The block slides down a total distance of 5.0 meters before it touches the ground. What is the total time taken by the block to travel the 5.0 meters?",
+    "prompt_name": "detail_system_prompt",
+    "total_output_tokens": 512,
+    "total_time_taken": 16.51274282999998
+}
