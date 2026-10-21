@@ -1,0 +1,7 @@
+{
+    "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "problem_question": "Problem_6_Regular_Q",
+    "prompt_name": "You are a physics expert. From the figure provide a brief description. From Fig (a) calculate the force constant of the spring. The spring in Fig (a) is now replaced with a block as shown in Fig (b). Calculate the angular frequency and the frequecy of the oscillation. In both the cases the force required is proportional to the displacement of the spring. All the necessary values and conditions required are given in the picture.",
+    "total_output_tokens": 523,
+    "total_time_taken": 22.309554838000054
+}

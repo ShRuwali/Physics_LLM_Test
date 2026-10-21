@@ -1,0 +1,7 @@
+{
+    "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "problem_question": "Problem_5_Obvious_Q",
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the picture.",
+    "total_output_tokens": 669,
+    "total_time_taken": 28.19522124499997
+}

@@ -1,0 +1,7 @@
+{
+    "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
+    "problem_question": "Problem_7_non_obvious_Q",
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the picture.",
+    "total_output_tokens": 213,
+    "total_time_taken": 9.233543231999988
+}
