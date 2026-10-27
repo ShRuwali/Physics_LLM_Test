@@ -1,0 +1,20 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_1_non_obvious_Q",
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the video.",
+    "total_output_tokens": 916,
+    "total_time_taken": 123.02151322199984,
+    "video_file": "Problem_1_non_obvious_Q.mp4",
+    "video_input_method": "native_video",
+    "video_processor": "Gemma4UnifiedVideoProcessor",
+    "processor_num_frames": 32,
+    "actual_video_frames": 32,
+    "transformers_version": "5.20.2",
+    "generation_max_new_tokens": 1024,
+    "generation_do_sample": false,
+    "quantization": "4-bit NF4",
+    "model_dtype": "float16",
+    "bnb_4bit_compute_dtype": "float16",
+    "bnb_4bit_double_quant": true,
+    "vision_precision_workaround": "Float32"
+}

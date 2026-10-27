@@ -1,0 +1,20 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_8_Regular_Q",
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate gravitational force between the two bodies on each other at the distance which is given in the figure. Consider both the bodies to be spherically symmetric. All the necessary values required are given in the video.",
+    "total_output_tokens": 431,
+    "total_time_taken": 59.07981493199986,
+    "video_file": "Problem_8_Regular_Q.mp4",
+    "video_input_method": "native_video",
+    "video_processor": "Gemma4UnifiedVideoProcessor",
+    "processor_num_frames": 32,
+    "actual_video_frames": 32,
+    "transformers_version": "5.20.2",
+    "generation_max_new_tokens": 1024,
+    "generation_do_sample": false,
+    "quantization": "4-bit NF4",
+    "model_dtype": "float16",
+    "bnb_4bit_compute_dtype": "float16",
+    "bnb_4bit_double_quant": true,
+    "vision_precision_workaround": "Float32"
+}
