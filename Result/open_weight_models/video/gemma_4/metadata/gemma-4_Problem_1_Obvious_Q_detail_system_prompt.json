@@ -1,0 +1,7 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_1_Obvious_Q",
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the video. But if there are any physical laws broken then mention it and also say of the problem can be solved or not.",
+    "total_output_tokens": 804,
+    "total_time_taken": 74.44436875100018
+}

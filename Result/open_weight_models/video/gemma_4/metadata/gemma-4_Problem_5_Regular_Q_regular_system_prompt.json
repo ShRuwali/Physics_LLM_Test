@@ -1,0 +1,7 @@
+{
+    "requested_model": "google/gemma-4-12B-it",
+    "problem_question": "Problem_5_Regular_Q",
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the video.",
+    "total_output_tokens": 522,
+    "total_time_taken": 48.07990563800013
+}
