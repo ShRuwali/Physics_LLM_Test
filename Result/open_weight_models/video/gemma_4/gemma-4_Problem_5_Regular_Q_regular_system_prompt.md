@@ -1,32 +1,30 @@
-To find the velocity of Block A after the collision, we use the principle of **Conservation of Linear Momentum**.
+To find the velocity of Block A after the collision, we use the principle of **Conservation of Momentum**. Since there are no external horizontal forces, the total momentum before the collision must equal the total momentum after the collision.
 
-### 1. Identify Given Information:
+### 1. Identify the given values:
 *   **Block A:**
     *   Mass ($m_A$) = $0.50\text{ kg}$
-    *   Initial velocity ($v_{1A}$) = $1.0\text{ m/s}$
+    *   Initial velocity ($v_{A1}$) = $1.0\text{ m/s}$
+    *   Final velocity ($v_{A2}$) = $?$
 *   **Block B:**
     *   Mass ($m_B$) = $0.20\text{ kg}$
-    *   Initial velocity ($v_{1B}$) = $-2.0\text{ m/s}$ (moving in the opposite direction)
-    *   Final velocity ($v_{2B}$) = $1.0\text{ m/s}$ (moving in the positive direction)
+    *   Initial velocity ($v_{B1}$) = $-2.0\text{ m/s}$ (moving to the left)
+    *   Final velocity ($v_{B2}$) = $1.0\text{ m/s}$ (moving to the right)
 
-### 2. Formula:
-The total momentum before the collision is equal to the total momentum after the collision:
-$$m_A v_{1A} + m_B v_{1B} = m_A v_{2A} + m_B v_{2B}$$
+### 2. Set up the Conservation of Momentum equation:
+$$m_A v_{A1} + m_B v_{B1} = m_A v_{A2} + m_B v_{B2}$$
 
-### 3. Calculation:
-Substitute the known values into the equation:
-$$(0.50\text{ kg})(1.0\text{ m/s}) + (0.20\text{ kg})(-2.0\text{ m/s}) = (0.50\text{ kg})(v_{2A}) + (0.20\text{ kg})(1.0\text{ m/s})$$
+### 3. Substitute the values and solve:
+$$(0.50\text{ kg})(1.0\text{ m/s}) + (0.20\text{ kg})(-2.0\text{ m/s}) = (0.50\text{ kg})(v_{A2}) + (0.20\text{ kg})(1.0\text{ m/s})$$
 
-Simplify the terms:
-$$0.50 - 0.40 = 0.50 \cdot v_{2A} + 0.20$$
-$$0.10 = 0.50 \cdot v_{2A} + 0.20$$
+$$0.50 - 0.40 = 0.50 v_{A2} + 0.20$$
+$$0.10 = 0.50 v_{A2} + 0.20$$
 
 Subtract $0.20$ from both sides:
-$$-0.10 = 0.50 \cdot v_{2A}$$
+$$-0.10 = 0.50 v_{A2}$$
 
-Solve for $v_{2A}$:
-$$v_{2A} = \frac{-0.10}{0.50}$$
-$$v_{2A} = -0.20\text{ m/s}$$
+Divide by $0.50$:
+$$v_{A2} = \frac{-0.10}{0.50}$$
+$$v_{A2} = -0.20\text{ m/s}$$
 
 **Final Answer:**
-The velocity of Block A after the collision is **$-0.20\text{ m/s}$** (moving in the opposite direction of its initial motion).
+The velocity of Block A after the collision is **$-0.20\text{ m/s}$** (moving to the left).

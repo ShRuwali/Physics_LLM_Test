@@ -2,19 +2,6 @@
     "requested_model": "google/gemma-4-12B-it",
     "problem_question": "Problem_6_Obvious_Q",
     "prompt_name": "You are a physics expert. From the video provide a brief description. From the top half of the video calculate the force constant of the spring. The spring from the top half of the video is now replaced with a block as shown in the bottom half of the video. Calculate the angular frequency and the frequecy of the oscillation. In both the cases the force required is proportional to the displacement of the spring. All the necessary values and conditions required are given in the video. But if there are any physical laws broken then mention it and also say of the problem can be solved or not.",
-    "total_output_tokens": 502,
-    "total_time_taken": 67.44925960899991,
-    "video_file": "Problem_6_Obvious_Q.mp4",
-    "video_input_method": "native_video",
-    "video_processor": "Gemma4UnifiedVideoProcessor",
-    "processor_num_frames": 32,
-    "actual_video_frames": 32,
-    "transformers_version": "5.20.2",
-    "generation_max_new_tokens": 1024,
-    "generation_do_sample": false,
-    "quantization": "4-bit NF4",
-    "model_dtype": "float16",
-    "bnb_4bit_compute_dtype": "float16",
-    "bnb_4bit_double_quant": true,
-    "vision_precision_workaround": "Float32"
+    "total_output_tokens": 665,
+    "total_time_taken": 61.592831191001096
 }

@@ -1,24 +1,39 @@
-The video shows a one-dimensional collision between two blocks, Block A and Block B, moving towards each other.
+Based on the video provided, here is the description and calculation for the collision:
 
-**Given Data:**
-*   **Block A:**
-    *   Mass ($m_A$) = $100\text{ nanograms}$
-    *   Initial velocity ($v_{A1}$) = $0\text{ m/s}$
-*   **Block B:**
-    *   Mass ($m_B$) = $200\text{ nanograms}$
-    *   Initial velocity ($v_{B1}$) = $-20.0\text{ m/s}$
+### **Description**
+The video depicts a one-dimensional elastic collision between two blocks, **Block A** and **Block B**, moving toward each other on a horizontal surface.
+*   **Block A** (blue) has a mass of $100\text{ ng}$ and is moving to the right with an initial velocity ($v_{A1}$) of $+1.0\text{ m/s}$.
+*   **Block B** (orange) has a mass of $200\text{ ng}$ and is moving to the left with an initial velocity ($v_{B1}$) of $-2.0\text{ m/s}$.
+*   The video shows the blocks colliding and then moving apart.
 
-**Analysis:**
-The problem describes a perfectly inelastic collision (or a collision where the blocks stick together) or a perfectly elastic collision. Based on the visual behavior where the blocks move together after impact, we treat this as a **perfectly inelastic collision**.
+### **Calculation**
+To find the velocity of Block A after the collision ($v_{A2}$), we use the principles of **Conservation of Momentum** and **Conservation of Kinetic Energy** (since it is an elastic collision).
 
-To find the final velocity ($v_{A2}$) of Block A after the collision, we use the principle of **Conservation of Linear Momentum**:
-$$m_A v_{A1} + m_B v_{B1} = (m_A + m_B) v_{A2}$$
+**1. Given Data:**
+*   $m_A = 100\text{ ng}$
+*   $m_B = 200\text{ ng}$
+*   $v_{A1} = +1.0\text{ m/s}$
+*   $v_{B1} = -2.0\text{ m/s}$
 
-Substituting the values:
-$$(100\text{ ng}) \cdot (0\text{ m/s}) + (200\text{ ng}) \cdot (-20.0\text{ m/s}) = (100\text{ ng} + 200\text{ ng}) \cdot v_{A2}$$
-$$0 + (-4000\text{ ng}\cdot\text{m/s}) = 300\text{ ng} \cdot v_{A2}$$
-$$v_{A2} = \frac{-4000}{300}\text{ m/s}$$
-$$v_{A2} \approx -13.33\text{ m/s}$$
+**2. Conservation of Momentum:**
+$$m_A v_{A1} + m_B v_{B1} = m_A v_{A2} + m_B v_{B2}$$
+$$(100)(1.0) + (200)(-2.0) = 100 v_{A2} + 200 v_{B2}$$
+$$100 - 400 = 100 v_{A2} + 200 v_{B2}$$
+$$-300 = 100 v_{A2} + 200 v_{B2} \quad \text{--- (Equation 1)}$$
 
-**Conclusion:**
-The velocity of Block A after the collision is approximately **$-13.33\text{ m/s}$** (moving in the same direction as Block B).
+**3. Relative Velocity Equation (for elastic collisions):**
+In a perfectly elastic collision, the relative velocity of approach equals the relative velocity of separation:
+$$v_{A1} - v_{B1} = -(v_{A2} - v_{B2})$$
+$$1.0 - (-2.0) = v_{B2} - v_{A2}$$
+$$3.0 = v_{B2} - v_{A2} \implies v_{B2} = v_{A2} + 3.0 \quad \text{--- (Equation 2)}$$
+
+**4. Solving for $v_{A2}$:**
+Substitute Equation 2 into Equation 1:
+$$-300 = 100 v_{A2} + 200(v_{A2} + 3.0)$$
+$$-300 = 100 v_{A2} + 200 v_{A2} + 600$$
+$$-900 = 300 v_{A2}$$
+$$v_{A2} = \frac{-900}{300}$$
+$$v_{A2} = -3.0\text{ m/s}$$
+
+**Final Answer:**
+The velocity of Block A after the collision is **$-3.0\text{ m/s}$** (moving to the left).

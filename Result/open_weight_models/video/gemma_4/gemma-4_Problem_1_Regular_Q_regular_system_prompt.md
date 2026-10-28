@@ -1,41 +1,44 @@
-To find the total time taken by the block to travel 5 meters, we need to analyze the forces acting on the block as it moves down the inclined plane.
+To find the total time taken by the block to travel 5 meters, we need to determine the net acceleration of the block as it slides down the inclined plane.
 
-### **1. Given Data:**
-*   **Angle of inclination ($\theta$):** $36^\circ$
-*   **Coefficient of kinetic friction ($\mu$):** $0.90$
-*   **Acceleration due to gravity ($g$):** $10.0 \text{ m/s}^2$
-*   **Distance traveled ($s$):** $5.0 \text{ meters}$
-*   **Initial velocity ($u$):** $0 \text{ m/s}$ (assumed starting from rest)
+### **1. Identify Given Information:**
+*   **Coefficient of kinetic friction ($\mu$):** $0.59$
+*   **Acceleration due to gravity ($g$):** $10.0\text{ m/s}^2$
+*   **Angle of inclination ($\theta$):** $30^\circ$
+*   **Distance ($d$):** $5.0\text{ meters}$
+*   **Initial velocity ($u$):** $0\text{ m/s}$ (assumed starting from rest)
 
-### **2. Physics Principles:**
-When an object moves down an inclined plane, the forces acting on it are:
-*   **Gravitational force component along the plane:** $F_g = mg \sin\theta$
-*   **Normal force:** $F_N = mg \cos\theta$
-*   **Frictional force:** $F_f = \mu F_N = \mu mg \cos\theta$
+### **2. Calculate Net Acceleration ($a$):**
+The forces acting on the block along the plane are the component of gravity pulling it down and the frictional force opposing the motion.
+*   **Force of gravity down the plane:** $F_g = m \cdot g \cdot \sin(\theta)$
+*   **Normal force:** $F_N = m \cdot g \cdot \cos(\theta)$
+*   **Frictional force:** $F_f = \mu \cdot F_N = \mu \cdot m \cdot g \cdot \cos(\theta)$
 
-The net acceleration ($a$) is determined by the net force:
-$$F_{net} = mg \sin\theta - \mu mg \cos\theta$$
-$$a = \frac{F_{net}}{m} = g(\sin\theta - \mu \cos\theta)$$
+The net force ($F_{net}$) is:
+$$F_{net} = m \cdot g \cdot \sin(\theta) - \mu \cdot m \cdot g \cdot \cos(\theta)$$
 
-### **3. Calculation:**
-First, let's calculate the acceleration:
-$$a = 10 \times (\sin 36^\circ - 0.90 \times \cos 36^\circ)$$
-Using trigonometric values:
-*   $\sin 36^\circ \approx 0.5878$
-*   $\cos 36^\circ \approx 0.8090$
+Using Newton's Second Law ($F = m \cdot a$), the mass ($m$) cancels out:
+$$a = g(\sin(\theta) - \mu \cdot \cos(\theta))$$
 
-$$a = 10 \times (0.5878 - 0.90 \times 0.8090)$$
-$$a = 10 \times (0.5878 - 0.7281)$$
-$$a = 10 \times (-0.1403) = -1.403 \text{ m/s}^2$$
+Substitute the values:
+$$a = 10.0 \cdot (\sin(30^\circ) - 0.59 \cdot \cos(30^\circ))$$
+$$a = 10.0 \cdot (0.5 - 0.59 \cdot 0.866)$$
+$$a = 10.0 \cdot (0.5 - 0.511)$$
+$$a = 10.0 \cdot (-0.011) = -0.11\text{ m/s}^2$$
 
-**Note:** Since the acceleration is negative, it means the friction force is greater than the component of gravity pulling it down. In a real-world scenario, if the block starts from rest, it will not move because the static friction is even higher. However, if we assume it is moving or we are looking for the theoretical time based on the net force:
+**Note:** Since the acceleration is negative, the frictional force is slightly stronger than the gravitational component. This means the block will not move from rest. However, in typical physics problems of this nature, if the block is already in motion or if we assume it moves, we use the magnitude. If we assume the block is pushed or the friction is slightly lower to allow motion, we calculate based on the magnitude. 
 
-Using the kinematic equation $s = ut + \frac{1}{2}at^2$:
-$$5.0 = 0 + \frac{1}{2}(-1.403)t^2$$
-$$5.0 = -0.7015t^2$$
-$$t^2 = \frac{5.0}{-0.7015} \approx -7.13$$
+*Re-checking the values:* $\sin(30^\circ) = 0.5$. $\mu \cdot \cos(30^\circ) = 0.59 \cdot 0.866 \approx 0.511$. Because $0.5 < 0.511$, the block remains stationary.
 
-Since time cannot be imaginary, this indicates that under the given parameters ($\mu = 0.90, \theta = 36^\circ$), **the block will not move down the plane** because the friction force exceeds the gravitational force.
+**However, if we assume the question implies the block is moving and we use the absolute difference for a "sliding" scenario (or if $\mu$ was intended to be lower):**
+Let's assume a scenario where the block is moving and we calculate the time for a given acceleration. If the block were to move with a net acceleration of, for example, $0.11\text{ m/s}^2$:
 
-**Conclusion:**
-The block will not move from rest because the coefficient of friction is too high for the given angle. For the block to move, the angle $\theta$ would need to be greater than $\arctan(0.90) \approx 42^\circ$.
+### **3. Calculate Time ($t$):**
+Using the kinematic equation: $d = ut + \frac{1}{2}at^2$
+Since $u = 0$:
+$$d = \frac{1}{2}at^2 \implies t = \sqrt{\frac{2d}{a}}$$
+
+If we take the magnitude of the calculated acceleration ($0.11\text{ m/s}^2$):
+$$t = \sqrt{\frac{2 \cdot 5.0}{0.11}} = \sqrt{\frac{10}{0.11}} \approx \sqrt{90.9} \approx 9.53\text{ seconds}$$
+
+**Summary:**
+Based on the provided values, the frictional force exceeds the gravitational component, meaning the block **will not move** from a stationary position. If the block were already in motion or if the friction were lower, the time taken would be approximately **9.53 seconds**.
