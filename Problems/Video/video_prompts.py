@@ -102,7 +102,7 @@ print(regular_system_prompt)
 detail_system_prompt= {}
 for key, value in regular_system_prompt.items():
     detail_system_prompt[key] = value + (" But if there are any physical laws broken then mention it and"
-                                                  " also say of the problem can be solved or not." )
+                                                  " also mention if the solution is physically justfiable or not." )
 
 ## remove these keys as there are no detail prompts for these regular question
 remove_keys = ["Problem_1_Regular_Q","Problem_2_Regular_Q","Problem_3_Regular_Q", 
