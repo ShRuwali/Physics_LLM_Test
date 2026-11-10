@@ -1,35 +1,23 @@
-**Step 1: Identify the physical law to be used**
+**Step 1: Identify the given parameters**
 
-The gravitational force between two bodies can be calculated using Newton's law of universal gravitation, which states that every point mass attracts every other point mass by a force acting along the line intersecting both points. The force is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
+*   Mass of Planet A (M) = 6000 kg
+*   Radius of Planet A = 100 meters
+*   Distance between centers (d) = 3.0 x 10^9 meters
+*   Mass of Moon (m) = 2.0 x 10^22 kg
 
-**Step 2: Write down the formula for gravitational force**
+**Step 2: Determine the gravitational constant (G)**
 
-The formula for gravitational force is:
+*   The gravitational constant (G) is approximately 6.674 * 10^-11 N m^2 kg^-2
 
-F = G \* (m1 \* m2) / r^2
+**Step 3: Calculate the gravitational force between the two bodies**
 
-where:
+*   Use the formula for gravitational force: F = G \* (M \* m) / r^2
+*   Substitute the given values: F = (6.674 * 10^-11) \* (6000 * 2.0 * 10^22) / (3.0 * 10^9)^2
+*   Simplify the expression: F = (6.674 * 10^-11) \* (12.0 * 10^22) / (9.0 * 10^18)
+*   Calculate the force: F = 8.88 * 10^4 N
 
-*   F = gravitational force
-*   G = gravitational constant (6.67408e-11 N\*m^2/kg^2)
-*   m1 = mass of planet A
-*   m2 = mass of the Moon
-*   r = distance between the centers of the two bodies
+**Step 4: Evaluate the result**
 
-**Step 3: Plug in the values from the figure**
+*   The calculated gravitational force is approximately 8.88 * 10^4 N
 
-Mass of planet A = 6000 kg
-Mass of the Moon = 2 x 10^22 kg
-Distance between centers = 3 x 10^9 meters
-
-**Step 4: Calculate the gravitational force**
-
-F = G \* (m1 \* m2) / r^2
-= (6.67408e-11 N\*m^2/kg^2) \* (6000 kg \* 2 x 10^22 kg) / (3 x 10^9 m)^2
-= 4.42 x 10^20 N
-
-**Step 5: Conclusion**
-
-The gravitational force between planet A and the Moon is approximately 4.42 x 10^20 N.
-
-**Answer**: 4.42 x 10^20 N
+**Answer**: 8.88 * 10^4 N

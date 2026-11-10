@@ -1,37 +1,46 @@
-To find the force constant of the spring, we can use Hooke's Law, which states that the force (F) required to displace a spring by a distance (x) is proportional to the displacement. Mathematically, this can be expressed as:
+To solve this problem, we can use the law of conservation of momentum. The total momentum before the collision is equal to the total momentum after the collision.
 
-F = kx
+First, we need to convert the masses from nanograms to kilograms. 
 
-where k is the force constant of the spring.
+1 nanogram = 1 x 10^-9 grams
+1 gram = 0.001 kilograms
+So, 1 nanogram = 1 x 10^-12 kilograms
 
-Given that a force of 5.0 N creates a displacement of 0.020 meters, we can use this information to find the force constant:
+m$_a$ = 100 nanograms = 100 x 10^-12 kilograms = 1 x 10^-10 kilograms
+m$_b$ = 200 nanograms = 200 x 10^-12 kilograms = 2 x 10^-10 kilograms
 
-5.0 N = k(0.020 m)
+The initial momentum of block A is 0 since its velocity is 0 m/s. The initial momentum of block B is given by:
 
-To find k, we can divide both sides of the equation by 0.020 m:
+p$_b$1 = m$_b$ * vb1
+= 2 x 10^-10 kg * 100 m/s
+= 2 x 10^-8 kg m/s
 
-k = 5.0 N / 0.020 m
-k = 250 N/m
+Since block B is moving to the right, we consider its velocity as positive. However, we are given that block B moves to the left after the collision, so we will consider its final velocity as negative.
 
-Now that we have the force constant, we can find the angular frequency (ω) of the oscillation. The angular frequency is related to the force constant and the mass of the block by the following equation:
+The final momentum of block B is given by:
 
-ω = √(k/m)
+p$_b$2 = m$_b$ * vb2
+= 2 x 10^-10 kg * -10,000 m/s
+= -2 x 10^-6 kg m/s
 
-Given that the mass of the block is 0.40 kg, we can plug in the values:
+The final momentum of block A is p$_a$2 = m$_a$ * va2, which we need to find.
 
-ω = √(250 N/m / 0.40 kg)
-ω = √(625)
-ω = 25 rad/s
+Using the law of conservation of momentum, we can write:
 
-The frequency (f) of the oscillation is related to the angular frequency by the following equation:
+p$_b$1 + p$_a$1 = p$_b$2 + p$_a$2
+0 + 0 = -2 x 10^-6 kg m/s + m$_a$ * va2
 
-f = ω / (2π)
+Simplifying the equation, we get:
 
-Plugging in the value of ω, we get:
+m$_a$ * va2 = 2 x 10^-6 kg m/s
 
-f = 25 rad/s / (2π)
-f = 25 / (2 x 3.14)
-f = 25 / 6.28
-f = 3.98 Hz
+Substituting the value of m$_a$, we get:
 
-Therefore, the force constant of the spring is 250 N/m, the angular frequency is 25 rad/s, and the frequency of the oscillation is 3.98 Hz.
+1 x 10^-10 kg * va2 = 2 x 10^-6 kg m/s
+
+Dividing both sides by 1 x 10^-10 kg, we get:
+
+va2 = 2 x 10^-6 kg m/s / 1 x 10^-10 kg
+= 2 x 10^4 m/s
+
+So, the final velocity of block

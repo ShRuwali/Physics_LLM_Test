@@ -2,27 +2,29 @@ To calculate the gravitational force between the planet and its moon, we can use
 
 The formula for the gravitational force is:
 
-F = G \* (M \* m) / r^2
+F = G * (M * m) / r^2
 
-However, we need to convert the mass of the planet from nanograms to kilograms. 
+where:
+- F is the gravitational force
+- G is the gravitational constant (6.674 * 10^-11 N m^2 kg^-2)
+- M is the mass of the planet (6.0 x 10^24 kg)
+- m is the mass of the moon (2.0 x 10^22 kg)
+- r is the distance between the centers of the two bodies (3.0 x 10^9 meters)
 
-1 nanogram = 10^-9 grams
-1 gram = 10^-3 kilograms
-So, 1 nanogram = 10^-12 kilograms
+Plugging in the values, we get:
 
-M = 6000 nanograms = 6000 * 10^-12 kilograms = 6 * 10^-9 kilograms
+F = (6.674 * 10^-11) * (6.0 x 10^24 * 2.0 x 10^22) / (3.0 x 10^9)^2
 
-Now, we can plug in the values:
+First, calculate the numerator:
+(6.0 x 10^24) * (2.0 x 10^22) = 12.0 x 10^(24+22) = 12.0 x 10^46
 
-G = 6.674 * 10^-11 N m^2 kg^-2 (gravitational constant)
-M = 6 * 10^-9 kilograms
-m = 2.0 * 10^22 kilograms
-r = 3.0 * 10^9 meters
+Now, calculate the denominator:
+(3.0 x 10^9)^2 = 9.0 x 10^(2*9) = 9.0 x 10^18
 
-F = (6.674 * 10^-11) * (6 * 10^-9 * 2.0 * 10^22) / (3.0 * 10^9)^2
-F = (6.674 * 10^-11) * (12 * 10^13) / (9 * 10^18)
-F = (6.674 * 10^-11) * (1.333 * 10^6) / (9 * 10^18)
-F = 8.88 * 10^3 / 9 * 10^18
-F = 9.87 * 10^-16 Newtons
+Now, divide the numerator by the denominator:
+F = (6.674 * 10^-11) * (12.0 x 10^46) / (9.0 x 10^18)
+F = (6.674 * 12.0) * 10^(-11 + 46 - 18)
+F = 80.088 * 10^17
+F = 8.0088 * 10^18
 
-The gravitational force between the planet and its moon at this location is approximately 9.87 * 10^-16 Newtons.
+So, the gravitational force between the planet and its moon at this location is approximately 8.0088 * 10^18 Newtons.

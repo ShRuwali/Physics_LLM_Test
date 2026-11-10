@@ -3,5 +3,5 @@
     "problem_question": "Problem_1_Regular_Q",
     "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture.",
     "total_output_tokens": 700,
-    "total_time_taken": 29.58617768900001
+    "total_time_taken": 30.58706413799996
 }

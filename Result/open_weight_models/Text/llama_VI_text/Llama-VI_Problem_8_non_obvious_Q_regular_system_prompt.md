@@ -1,22 +1,32 @@
 To calculate the gravitational force between the planet and its moon, we can use Newton's law of universal gravitation, which states that the gravitational force between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
 
-However, the given information about the shape of the moon's orbit being square is irrelevant to the calculation of the gravitational force. The shape of the orbit does not affect the force between the two bodies.
+The formula for the gravitational force is:
 
-The mass of the planet is given as 6000 nanograms, which is equivalent to 6.0 x 10^-12 kg. The mass of the moon is given as 2.0 x 10^22 kg.
+F = G \* (M \* m) / r^2
 
-The distance between the centers of the two bodies is given as 3.0 x 10^9 meters.
+where:
+- F is the gravitational force
+- G is the gravitational constant (6.674 * 10^-11 N m^2 kg^-2)
+- M is the mass of the planet (6000 nanograms = 6 * 10^-9 kg)
+- m is the mass of the moon (2.0 * 10^22 kg)
+- r is the distance between the centers of the two bodies (3.0 * 10^9 meters)
 
-We can now use the formula for gravitational force:
+Now, let's plug in the values:
 
-F = G * (M * m) / r^2
+F = (6.674 * 10^-11) * (6 * 10^-9 * 2.0 * 10^22) / (3.0 * 10^9)^2
 
-where F is the gravitational force, G is the gravitational constant (6.674 x 10^-11 N m^2 kg^-2), M is the mass of the planet, m is the mass of the moon, and r is the distance between the centers of the two bodies.
+First, calculate the numerator:
+(6.674 * 10^-11) * (6 * 10^-9 * 2.0 * 10^22) = (6.674 * 6 * 2.0) * 10^(-11 + (-9) + 22)
+= 80.088 * 10^12
+= 8.0088 * 10^14
 
-Plugging in the values, we get:
+Now, calculate the denominator:
+(3.0 * 10^9)^2 = 9.0 * 10^18
 
-F = (6.674 x 10^-11) * (6.0 x 10^-12 * 2.0 x 10^22) / (3.0 x 10^9)^2
-F = (6.674 x 10^-11) * (1.2 x 10^11) / (9.0 x 10^18)
-F = (8.0028 x 10^-2) / (9.0 x 10^18)
-F = 8.88 x 10^-21 N
+Now, divide the numerator by the denominator:
+F = 8.0088 * 10^14 / 9.0 * 10^18
+= 8.0088 / 9.0 * 10^(14 - 18)
+= 0.89098 * 10^-4
+= 8.9098 * 10^-5
 
-So, the gravitational force between the planet and its moon at this location is approximately 8.88 x 10^-21 N.
+So, the gravitational force between the planet and its moon at this location is approximately 8.91 * 10^-5 Newtons.

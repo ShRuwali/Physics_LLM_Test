@@ -3,5 +3,5 @@
     "problem_question": "Problem_5_non_obvious_Q",
     "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the picture.",
     "total_output_tokens": 390,
-    "total_time_taken": 16.513809700000024
+    "total_time_taken": 17.43592541099997
 }

@@ -22,4 +22,4 @@ Since the block is accelerating, we can use Newton's second law to find the acce
 
 a = F_net / m = 0.67 * 10^-9 N / 1 * 10^-9 kg = 0.67 m/s^2
 
-Now, we can use the equation of motion to find the time it takes for the block to travel a certain distance. The equation of motion is given by x = x0 + v0t + (1/2)at^2
+Now, we can use the equation of motion to find the time it takes for the block to travel a distance of 5.0 meters. The equation of motion is given by x = x0 + v0t + (1/

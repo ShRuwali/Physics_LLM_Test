@@ -1,36 +1,35 @@
-To solve this problem, we can use the law of conservation of momentum. The total momentum before the collision is equal to the total momentum after the collision.
+To solve this problem, we can use the principle of conservation of momentum. The total momentum before the collision is equal to the total momentum after the collision.
 
-Before the collision, the momentum of block A is 0 (since its initial velocity is 0) and the momentum of block B is its mass times its velocity:
+The momentum of an object is given by the product of its mass and velocity. 
 
-p$_b$ = m$_b$ * v$_b1$ = 200 nanograms * 100 m/s = 0.02 milligrams*m/s
+Before the collision, the momentum of block A is m$_a$ * va1 and the momentum of block B is m$_b$ * vb1. 
 
-After the collision, the momentum of block A is its mass times its final velocity (va2) and the momentum of block B is its mass times its final velocity (vb2):
+After the collision, the momentum of block A is m$_a$ * va2 and the momentum of block B is m$_b$ * vb2.
 
-p$_a$ = m$_a$ * v$_a2$ and p$_b$ = m$_b$ * v$_b2$
+Since the blocks are moving in opposite directions, we need to consider the signs of their velocities. Block A is moving to the right, so its velocity is positive. Block B is moving to the left, so its initial velocity is negative.
 
-Since the total momentum before the collision is equal to the total momentum after the collision, we can set up the following equation:
+We can write the equation for conservation of momentum as:
 
-0 + 0.02 milligrams*m/s = m$_a$ * v$_a2$ + m$_b$ * v$_b2$
+m$_a$ * va1 + m$_b$ * vb1 = m$_a$ * va2 + m$_b$ * vb2
 
-We are given that v$_b2$ = 10 km/s = 10,000 m/s. We can plug in the values for m$_a$, m$_b$, and v$_b2$ and solve for v$_a2$:
+Substituting the given values, we get:
 
-0.02 milligrams*m/s = 100 nanograms * v$_a2$ + 200 nanograms * 10,000 m/s
+100 * 10^(-9) * 1.0 + 200 * 10^(-9) * (-2.0) = 100 * 10^(-9) * va2 + 200 * 10^(-9) * 1.0
 
-First, we need to convert the masses from nanograms to milligrams:
-100 nanograms = 0.1 milligrams
-200 nanograms = 0.2 milligrams
+Simplifying the equation, we get:
 
-Now we can plug in the values and solve for v$_a2$:
+100 * 10^(-9) + (-400 * 10^(-9)) = 100 * 10^(-9) * va2 + 200 * 10^(-9)
 
-0.02 milligrams*m/s = 0.1 milligrams * v$_a2$ + 2 milligrams*m/s
+Combine like terms:
 
-Subtract 2 milligrams*m/s from both sides:
+-300 * 10^(-9) = 100 * 10^(-9) * va2 + 200 * 10^(-9)
 
--1.98 milligrams*m/s = 0.1 milligrams * v$_a2$
+Subtract 200 * 10^(-9) from both sides:
 
-Divide both sides by 0.1 milligrams:
+-500 * 10^(-9) = 100 * 10^(-9) * va2
 
-v$_a2$ = -1.98 milligrams*m/s / 0.1 milligrams
-v$_a2$ = -19.8 m/s
+Divide both sides by 100 * 10^(-9):
 
-The final velocity of block A is -19.8 m/s. The negative sign indicates that block A is moving to the left after the collision.
+-5 = va2
+
+So, the final velocity of block A is -5 m/s.

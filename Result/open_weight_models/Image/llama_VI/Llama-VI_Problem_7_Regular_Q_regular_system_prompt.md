@@ -14,24 +14,20 @@ W = mg = 20 kg x 10 m/s^2 = 200 N
 
 **Step 3: Calculate the buoyant force**
 
-The density of sea water is 1030 kg/m^3, and the volume of the block is not given. However, we can calculate the volume of the block using the density of the block and the mass of the block:
+The density of sea water is 1030 kg/m^3, and the volume of the block is not given. However, we can calculate the volume of the block using the density of the block:
 
 ρ = m / V
 
-V = m / ρ = 20 kg / 1900 kg/m^3 = 0.0105 m^3
+V = m / ρ = 20 kg / 2000 kg/m^3 = 0.01 m^3
 
 Now, we can calculate the buoyant force:
 
-Fb = ρVg = 1030 kg/m^3 x 0.0105 m^3 x 10 m/s^2 = 109.3 N
+Fb = ρVg = 1030 kg/m^3 x 0.01 m^3 x 10 m/s^2 = 103 N
 
 **Step 4: Calculate the tension in the cable**
 
-Since the block is in equilibrium, the net force acting on it is zero. Therefore, the sum of the forces is equal to zero:
+Since the block is in equilibrium, the net force acting on it is zero. Therefore, the tension in the cable is equal to the weight of the block minus the buoyant force:
 
-W - Fb - T = 0
+T = W - Fb = 200 N - 103 N = 97 N
 
-200 N - 109.3 N - T = 0
-
-T = 90.7 N
-
-**Answer:** The tension in the cable is 90.7 N.
+**Answer**: 97 N

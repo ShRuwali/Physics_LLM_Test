@@ -1,38 +1,36 @@
-To solve this problem, we can use the law of conservation of momentum. The total momentum before the collision is equal to the total momentum after the collision.
+To solve this problem, we need to consider the forces acting on the object at the bottom of the circle. There are three main forces acting on the object: 
 
-Before the collision, the total momentum is the sum of the momenta of block A and block B:
+1. The tension in the string (T)
+2. The weight of the object (mg)
+3. The centripetal force required to keep the object in a circular path (F_c)
 
-p$_{total1}$ = m$_a$va$_1$ + m$_b$vb$_1$
+The centripetal force is given by the equation:
 
-Since block A is moving to the right, its velocity is positive. Block B is moving to the left, so its velocity is negative.
+F_c = (m * v^2) / R
 
-p$_{total1}$ = (0.50 kg)(1.0 m/s) + (0.20 kg)(-2.0 m/s)
-p$_{total1}$ = 0.50 kg m/s - 0.40 kg m/s
-p$_{total1}$ = 0.10 kg m/s
+where m is the mass of the object, v is the speed of the object, and R is the radius of the circle.
 
-After the collision, block B is moving to the right with a velocity of 1.0 m/s, so its momentum is:
+The weight of the object is given by:
 
-p$_b$ = m$_b$vb$_2$ = (0.20 kg)(1.0 m/s) = 0.20 kg m/s
+mg = m * g
 
-The momentum of block A after the collision is:
+where g is the acceleration due to gravity.
 
-p$_a$ = m$_a$va$_2$
+At the bottom of the circle, the tension in the string is directed upwards, and the weight of the object is also directed downwards. The centripetal force is directed towards the center of the circle, which is also upwards in this case.
 
-We can set up an equation using the law of conservation of momentum:
+Since the object is in a highly elastic string, we can assume that the string does not stretch significantly, and the tension in the string is approximately equal to the centripetal force.
 
-p$_{total1}$ = p$_a$ + p$_b$
+However, we also need to consider the effect of gravity on the tension in the string. The tension in the string must be sufficient to counteract the weight of the object and provide the centripetal force.
 
-Substituting the values we found earlier, we get:
+We can set up an equation to represent the forces acting on the object at the bottom of the circle:
 
-0.10 kg m/s = m$_a$va$_2$ + 0.20 kg m/s
+T - mg = (m * v^2) / R
 
-Subtracting 0.20 kg m/s from both sides gives:
+We can plug in the given values to solve for T:
 
--0.10 kg m/s = m$_a$va$_2$
+T = (m * v^2) / R + mg
+= ((10 * 10^-9 kg) * (3.001 * 10^8 m/s)^2) / (5.0 m) + ((10 * 10^-9 kg) * 10.0 m/s^2)
+= (0.904 * 10^-3 N) + (10^-10 N)
+= 0.904 * 10^-3 N
 
-Dividing both sides by m$_a$ gives:
-
-va$_2$ = -0.10 kg m/s / 0.50 kg
-va$_2$ = -0.20 m/s
-
-Since block A is moving to the right, its velocity is positive. However, in this case, the velocity is negative, indicating that block A is actually moving to the left after the collision.
+Therefore, the tension in the string at the bottom of the circle is approximately 0.904 millinewtons.

@@ -1,22 +1,21 @@
-To find the time period of the pendulum, we can use the equation for the time period of a simple pendulum:
+To find the time period of the pendulum, we can use the equation for the time period of a simple pendulum, which is given by:
 
 T = 2π √(L/g)
 
 where T is the time period, L is the length of the pendulum, and g is the acceleration due to gravity.
 
-First, we need to convert the length of the pendulum from nanometers to meters:
+First, we need to convert the length of the pendulum from nanometers to meters. 
 
-L = 50 nanometers = 50 x 10^-9 meters = 5 x 10^-8 meters
+1 nanometer = 10^-9 meters
+L = 50 nanometers = 50 * 10^-9 meters = 5 * 10^-8 meters
 
-Now, we can plug in the values:
+Now, we can plug in the values we know into the equation:
 
-T = 2π √(5 x 10^-8 / 10.0)
-
-T = 2π √(5 x 10^-9)
-
-T = 2π x 7.071 x 10^-5
-
-T ≈ 4.43 x 10^-4 seconds
+T = 2π √(L/g)
+T = 2π √(5 * 10^-8 / 10)
+T = 2π √(5 * 10^-9)
+T = 2π * 7.071 * 10^-5
+T ≈ 0.0000443 seconds
 
 However, we need to consider the moment of inertia of the sphere. The moment of inertia of a solid sphere is given by:
 
@@ -24,30 +23,19 @@ I = (2/5)mr^2
 
 where I is the moment of inertia, m is the mass of the sphere, and r is the radius of the sphere.
 
-The radius of the sphere is half of the diameter, so:
+The mass of the sphere is given as 2.5 nanograms, which is equal to 2.5 * 10^-9 grams. The diameter of the sphere is 100 nanometers, so the radius is half of that, which is 50 nanometers or 5 * 10^-8 meters.
 
-r = 100 nanometers / 2 = 50 nanometers = 50 x 10^-9 meters
+I = (2/5) * 2.5 * 10^-9 * (5 * 10^-8)^2
+I = (2/5) * 2.5 * 10^-9 * 25 * 10^-16
+I = 0.25 * 62.5 * 10^-25
+I = 15.625 * 10^-25 kg m^2
 
-Now, we can plug in the values:
-
-I = (2/5) x 2.5 x 10^-9 x (50 x 10^-9)^2
-
-I = (2/5) x 2.5 x 10^-9 x 2500 x 10^-18
-
-I = 5 x 10^-26 kg m^2
-
-The equation for the time period of a simple pendulum with a non-zero moment of inertia is:
+The equation for the time period of a simple pendulum with a moment of inertia is given by:
 
 T = 2π √(I/mg)
 
-Now, we can plug in the values:
+Now, we can plug in the values we know into the equation:
 
-T = 2π √(5 x 10^-26 / (2.5 x 10^-9 x 10.0))
-
-T = 2π √(2 x 10^-17)
-
-T = 2π x 1.414 x 10^-8
-
-T ≈ 8.86 x 10^-8 seconds
-
-However, this is not the correct answer. The moment of inertia of the sphere is negligible compared to the mass of the sphere. The mass of the sphere is 2.5 nanograms, which is 2.5 x 10^-
+T = 2π √(I/mg)
+T = 2π √(15.625 * 10^-25 / (2.5 * 10^-9 * 10))
+T = 2π √(15.625 * 10

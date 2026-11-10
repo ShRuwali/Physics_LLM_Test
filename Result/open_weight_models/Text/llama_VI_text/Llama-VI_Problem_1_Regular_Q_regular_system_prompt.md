@@ -1,43 +1,51 @@
-To find the total time taken by the block to travel the 5.0 meters, we need to find the acceleration of the block first. 
+To solve this problem, we need to find the acceleration of the block down the inclined plane, and then use that to find the time it takes to travel 5.0 meters.
 
-The force of gravity acting on the block is given by Fg = mg sin(θ), where m is the mass of the block, g is the acceleration due to gravity, and θ is the angle of the inclined plane.
+First, we need to find the force of gravity acting on the block parallel to the inclined plane. This is given by:
 
-The force of friction acting on the block is given by Ff = μk N, where μk is the coefficient of kinetic friction and N is the normal force. The normal force is given by N = mg cos(θ).
+F_g = m * g * sin(θ)
 
-The net force acting on the block is given by Fnet = Fg - Ff = mg sin(θ) - μk mg cos(θ).
+where m is the mass of the block, g is the acceleration due to gravity, and θ is the angle of the inclined plane.
 
-Using Newton's second law, we can write Fnet = ma, where a is the acceleration of the block.
+F_g = 12.0 kg * 10.0 m/s^2 * sin(30°)
+F_g = 12.0 kg * 10.0 m/s^2 * 0.5
+F_g = 60 N
 
-Substituting the expressions for Fnet and m, we get:
+However, the block is also subject to a force of friction, which opposes its motion. The force of friction is given by:
 
-mg sin(θ) - μk mg cos(θ) = ma
+F_f = μ_k * N
 
-Substituting the given values, we get:
+where μ_k is the coefficient of kinetic friction and N is the normal force acting on the block. The normal force is given by:
 
-(12.0 kg)(10.0 m/s^2) sin(30°) - (0.50)(12.0 kg)(10.0 m/s^2) cos(30°) = (12.0 kg)a
+N = m * g * cos(θ)
 
-Simplifying the expression, we get:
+N = 12.0 kg * 10.0 m/s^2 * cos(30°)
+N = 12.0 kg * 10.0 m/s^2 * 0.866
+N = 103.92 N
 
-(12.0 kg)(10.0 m/s^2)(0.5) - (0.50)(12.0 kg)(10.0 m/s^2)(0.866) = (12.0 kg)a
+F_f = 0.50 * 103.92 N
+F_f = 51.96 N
 
-(60 kg m/s^2) - (51.96 kg m/s^2) = (12.0 kg)a
+The net force acting on the block is the difference between the force of gravity and the force of friction:
 
-8.04 kg m/s^2 = (12.0 kg)a
+F_net = F_g - F_f
+F_net = 60 N - 51.96 N
+F_net = 8.04 N
 
-a = 8.04 kg m/s^2 / 12.0 kg
+The acceleration of the block is given by:
 
+a = F_net / m
+a = 8.04 N / 12.0 kg
 a = 0.67 m/s^2
 
-Now that we have the acceleration, we can use the equation of motion to find the time taken by the block to travel the 5.0 meters.
+Now that we have the acceleration, we can use the equation of motion to find the time it takes for the block to travel 5.0 meters:
 
-The equation of motion is given by:
+s = v0*t + (1/2)*a*t^2
 
-s = ut + (1/2)at^2
+Since the block starts from rest, v0 = 0. We can rearrange the equation to solve for t:
 
-where s is the distance traveled, u is the initial velocity (which is 0 in this case), t is the time taken, and a is the acceleration.
+t = sqrt((2*s) / a)
+t = sqrt((2*5.0 m) / 0.67 m/s^2)
+t = sqrt(14.9)
+t = 3.86 seconds
 
-Rearranging the equation to solve for t, we get:
-
-t = sqrt((2s)/a)
-
-Substituting the given
+Therefore,
