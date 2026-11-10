@@ -7,7 +7,8 @@ prompts = {"regular_system_prompt" : ("You are a physics expert."
 
             "detail_system_prompt"  :  ("You are a physics expert."
                                               " Based on the question that is given solve the problem," 
-                                              " but if there are any physical laws broken then mention it and"
+                                              " but if there are any physical laws broken, unreasonable parameters, or assumptions"
+                                              " of a physical model are challenged then mention it and"
                                               " also mention if the solution is physically justfiable or not."
                                               " The question has equations and symbols in latex, but your answer should not be in latex."
                                                     )                                   
