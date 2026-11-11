@@ -1,0 +1,7 @@
+{
+    "requested_model": "PRIME-RL/P1-VL-30B-A3B",
+    "problem_question": "Problem_2_Obvious_Q",
+    "prompt_used": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "total_output_tokens": 6514,
+    "total_time_taken": 635.2615601319999
+}
