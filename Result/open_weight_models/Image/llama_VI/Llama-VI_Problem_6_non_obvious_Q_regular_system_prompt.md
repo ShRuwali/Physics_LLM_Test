@@ -2,50 +2,45 @@
 
 The figures depict two scenarios:
 
-*   **Figure (a)**: A spring is stretched by a force of 5.0 N, resulting in an initial displacement of 0 meters and a final displacement of 0.020 meters.
-*   **Figure (b)**: A block of mass 500 nanograms is attached to a spring, with an initial displacement of 0 meters and a final displacement of 0.040 meters.
+*   **Fig (a)**: A spring is stretched by a force of 5.0 N, resulting in an initial displacement of 0 meters and a final displacement of 0.020 meters.
+*   **Fig (b)**: A block of mass 500 nanograms is attached to a spring, with an initial displacement of 0 meters and a final displacement of 0.040 meters.
 
-**Calculating the Force Constant of the Spring in Figure (a)**
+**Calculating the Force Constant of the Spring**
 
 To calculate the force constant of the spring, we can use Hooke's Law:
 
-F = kx
+$$F = kx$$
 
-where F is the force applied, k is the force constant, and x is the displacement.
+where:
 
-Given that the force F = 5.0 N and the displacement x = 0.020 meters, we can rearrange the equation to solve for k:
+*   $F$ is the force applied to the spring
+*   $k$ is the force constant of the spring
+*   $x$ is the displacement of the spring
 
-k = F / x
-= 5.0 N / 0.020 m
-= 250 N/m
+Rearranging the equation to solve for $k$, we get:
 
-**Calculating the Angular Frequency and Frequency of Oscillation in Figure (b)**
+$$k = \frac{F}{x}$$
 
-The block is attached to the spring, and we are asked to calculate the angular frequency and frequency of oscillation. To do this, we need to find the spring constant k, which we already calculated in Figure (a) as 250 N/m.
+Plugging in the values from Fig (a), we get:
 
-The mass of the block is given as 500 nanograms, which is equivalent to 0.0005 kg (since 1 nanogram = 10^-9 kg).
+$$k = \frac{5.0 \text{ N}}{0.020 \text{ m}} = 250 \text{ N/m}$$
 
-The length of the spring is not explicitly given, but we can assume it is the same as in Figure (a), which is not necessary for this calculation.
+**Calculating the Angular Frequency and Frequency of the Oscillation**
 
-The angular frequency ω is given by:
+The angular frequency ($\omega$) and frequency ($f$) of the oscillation can be calculated using the following equations:
 
-ω = √(k/m)
+$$\omega = \sqrt{\frac{k}{m}}$$
 
-where k is the spring constant and m is the mass of the block.
+$$f = \frac{\omega}{2\pi}$$
 
-Plugging in the values, we get:
+where:
 
-ω = √(250 N/m / 0.0005 kg)
-= √500,000 rad/s
-= 707.1 rad/s
+*   $m$ is the mass of the block
 
-The frequency f is related to the angular frequency by:
+Plugging in the values from Fig (b), we get:
 
-f = ω / 2π
+$$\omega = \sqrt{\frac{250 \text{ N/m}}{500 \text{ ng}} \times \frac{1 \text{ g}}{1000 \text{ mg}} \times \frac{1 \text{ kg}}{1000 \text{ g}} \times \frac{1 \text{ m}}{1000 \text{ cm}} \times \frac{1 \text{ cm}}{10^{-2} \text{ m}} \times \frac{1 \text{ m}}{100 \text{ cm}}} = 5.0 \times 10^3 \text{ rad/s}$$
 
-Plugging in the value of ω, we get:
+$$f = \frac{5.0 \times 10^3 \text{ rad/s}}{2\pi} = 795.8 \text{ Hz}$$
 
-f = 707.1 rad/s / 2π
-= 112.3 Hz
-
-Therefore, the angular frequency of the oscillation is approximately 707.1 rad/s, and the frequency is approximately 112.3 Hz.
+Therefore, the force constant of the spring is 250 N/m, and the angular frequency and frequency of the oscillation are 5.0 x 10^3 rad/s and 795.8 Hz, respectively.

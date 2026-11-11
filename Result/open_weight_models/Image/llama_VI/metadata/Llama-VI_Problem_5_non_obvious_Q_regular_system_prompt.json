@@ -1,7 +1,7 @@
 {
     "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
     "problem_question": "Problem_5_non_obvious_Q",
-    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the picture.",
-    "total_output_tokens": 390,
-    "total_time_taken": 17.43592541099997
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the picture. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 749,
+    "total_time_taken": 31.52936096099984
 }

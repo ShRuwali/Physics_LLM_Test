@@ -1,34 +1,21 @@
-**Step 1: Identify the necessary values**
+The figure depicts a block suspended from a cable over a body of water, with the block's mass denoted as 1000 nanograms. The length of the cable is 100 nanometers, and the density of the block is 1.0 x 10^9 kg/m^3. The density of the surrounding water is 1.03 x 10^3 kg/m^3, and the acceleration due to gravity (g) is 10.0 m/s^2.
 
-*   Mass of the block (m) = 1000 nanograms = 1000 x 10^-9 kg
-*   Length of the cable = 100 nanometers = 100 x 10^-9 m
-*   Height of the cable = 100 nanometers = 100 x 10^-9 m
-*   Density of the block (D) = 1.0 x 10^3 kg/m^3
-*   Density of sea water = 1.03 x 10^3 kg/m^3
-*   Acceleration due to gravity (g) = 10.0 m/s^2
+To calculate the tension (T) in the cable, we can use the following formula:
 
-**Step 2: Calculate the volume of the block**
+T = m * g
 
-*   Volume of the block = mass of the block / density of the block
-*   Volume of the block = 1000 x 10^-9 kg / (1.0 x 10^3 kg/m^3) = 1.0 x 10^-6 m^3
+where m is the mass of the block and g is the acceleration due to gravity.
 
-**Step 3: Calculate the volume of the displaced water**
+First, we need to convert the mass of the block from nanograms to kilograms:
 
-*   Volume of the displaced water = volume of the block = 1.0 x 10^-6 m^3
+m = 1000 ng = 1.0 x 10^-7 kg
 
-**Step 4: Calculate the mass of the displaced water**
+Now, we can calculate the tension:
 
-*   Mass of the displaced water = density of the displaced water x volume of the displaced water
-*   Mass of the displaced water = 1.03 x 10^3 kg/m^3 x 1.0 x 10^-6 m^3 = 1.03 x 10^-3 kg
+T = m * g
+= 1.0 x 10^-7 kg * 10.0 m/s^2
+= 1.0 x 10^-6 N
 
-**Step 5: Calculate the weight of the displaced water**
+Therefore, the tension in the cable is 1.0 x 10^-6 N.
 
-*   Weight of the displaced water = mass of the displaced water x acceleration due to gravity
-*   Weight of the displaced water = 1.03 x 10^-3 kg x 10.0 m/s^2 = 0.103 N
-
-**Step 6: Calculate the tension in the cable**
-
-*   Tension in the cable = weight of the displaced water
-*   Tension in the cable = 0.103 N
-
-**Answer**: 0.103 N
+**Answer:** 1.0 x 10^-6 N

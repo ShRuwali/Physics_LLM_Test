@@ -1,33 +1,41 @@
-**Step 1: Identify the forces acting on the block**
+The figure depicts a block of mass 20.0 kg suspended from a cable, with the block partially submerged in a tank of sea water. The density of the block is 19.0 x 10^3 kg/m^3, and the density of the sea water is 1.03 x 10^3 kg/m^3. The acceleration due to gravity is 10.0 m/s^2.
 
-The block is in equilibrium, so the net force acting on it is zero. The forces acting on the block are:
+To calculate the tension (T) in the cable, we can use the concept of buoyancy and the principle of conservation of energy. The weight of the block is given by:
 
-*   Weight of the block (W = mg)
-*   Tension in the cable (T)
-*   Buoyant force (Fb = ρVg)
+W = m * g
 
-**Step 2: Calculate the weight of the block**
+where m is the mass of the block and g is the acceleration due to gravity.
 
-The mass of the block is 20 kg, and the acceleration due to gravity is 10 m/s^2. Therefore, the weight of the block is:
+The weight of the block is:
 
-W = mg = 20 kg x 10 m/s^2 = 200 N
+W = 20.0 kg * 10.0 m/s^2 = 200 N
 
-**Step 3: Calculate the buoyant force**
+The buoyant force (F_b) exerted on the block by the sea water is given by:
 
-The density of sea water is 1030 kg/m^3, and the volume of the block is not given. However, we can calculate the volume of the block using the density of the block:
+F_b = ρ * V * g
 
-ρ = m / V
+where ρ is the density of the sea water, V is the volume of the block, and g is the acceleration due to gravity.
 
-V = m / ρ = 20 kg / 2000 kg/m^3 = 0.01 m^3
+The volume of the block is:
 
-Now, we can calculate the buoyant force:
+V = m / ρ
 
-Fb = ρVg = 1030 kg/m^3 x 0.01 m^3 x 10 m/s^2 = 103 N
+where m is the mass of the block and ρ is the density of the block.
 
-**Step 4: Calculate the tension in the cable**
+The volume of the block is:
 
-Since the block is in equilibrium, the net force acting on it is zero. Therefore, the tension in the cable is equal to the weight of the block minus the buoyant force:
+V = 20.0 kg / (19.0 x 10^3 kg/m^3) = 1.05 x 10^-4 m^3
 
-T = W - Fb = 200 N - 103 N = 97 N
+The buoyant force is:
 
-**Answer**: 97 N
+F_b = 1.03 x 10^3 kg/m^3 * 1.05 x 10^-4 m^3 * 10.0 m/s^2 = 1.08 N
+
+The net force acting on the block is the difference between its weight and the buoyant force:
+
+F_net = W - F_b = 200 N - 1.08 N = 198.92 N
+
+Since the block is in equilibrium, the net force is equal to the tension (T) in the cable:
+
+T = F_net = 198.92 N
+
+Therefore, the tension in the cable is approximately 198.92 N.

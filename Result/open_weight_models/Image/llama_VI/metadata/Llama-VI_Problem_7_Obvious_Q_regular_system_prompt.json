@@ -1,7 +1,7 @@
 {
     "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
     "problem_question": "Problem_7_Obvious_Q",
-    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the picture.",
-    "total_output_tokens": 276,
-    "total_time_taken": 12.26604475199997
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the picture. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 281,
+    "total_time_taken": 11.988019551999969
 }

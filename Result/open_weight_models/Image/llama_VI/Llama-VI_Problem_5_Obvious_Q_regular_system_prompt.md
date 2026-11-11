@@ -1,65 +1,57 @@
-**Step 1: Identify the type of collision**
+**Problem Description**
 
-The figure shows a head-on collision between two blocks, A and B. Since there is no friction between the block and the surface, we can assume that the collision is elastic.
+The problem presents a scenario where two blocks, A and B, are involved in a collision. The goal is to determine the velocity of block A after the collision, given certain conditions and values provided in the figure.
 
-**Step 2: Apply the law of conservation of momentum**
+**Given Information**
 
-The law of conservation of momentum states that the total momentum before the collision is equal to the total momentum after the collision. We can write this as:
+*   Block A has a mass of 100 nanograms (m_A = 100 ng) and an initial velocity of 0 m/s (v_A1 = 0 m/s).
+*   Block B has a mass of 200 nanograms (m_B = 200 ng) and an initial velocity of 100 m/s (v_B1 = 100 m/s).
+*   The blocks are moving to the right before the collision.
+*   There is no friction between the blocks and the surface they are on.
 
-m_A v_A1 + m_B v_B1 = m_A v_A2 + m_B v_B2
+**Step-by-Step Solution**
 
-where m_A and m_B are the masses of blocks A and B, respectively, and v_A1 and v_B1 are the initial velocities of blocks A and B, respectively. v_A2 and v_B2 are the final velocities of blocks A and B, respectively.
+To solve this problem, we will use the principle of conservation of momentum. This principle states that the total momentum before the collision is equal to the total momentum after the collision.
 
-**Step 3: Calculate the initial momentum of block A**
+**Step 1: Calculate the Initial Momentum**
 
-The initial momentum of block A is given by:
+First, we calculate the initial momentum of each block:
 
-p_A1 = m_A v_A1
+*   Momentum of Block A: p_A1 = m_A \* v_A1 = 100 ng \* 0 m/s = 0 ng·m/s
+*   Momentum of Block B: p_B1 = m_B \* v_B1 = 200 ng \* 100 m/s = 20,000 ng·m/s
 
-Since block A is initially at rest, its initial velocity is zero, and its initial momentum is also zero.
+**Step 2: Calculate the Final Momentum**
 
-**Step 4: Calculate the initial momentum of block B**
+After the collision, the blocks move to the left. We are asked to find the velocity of Block A after the collision (v_A2). Let's denote the velocity of Block B after the collision as v_B2.
 
-The initial momentum of block B is given by:
+Since there is no friction, the total momentum after the collision is the same as the total momentum before the collision. We can set up the equation based on the conservation of momentum:
 
-p_B1 = m_B v_B1
-
-We are given that the mass of block B is 200 nanograms and its initial velocity is 100 m/s. Therefore, the initial momentum of block B is:
-
-p_B1 = 200 x 10^-9 kg x 100 m/s = 2 x 10^-6 kg m/s
-
-**Step 5: Calculate the final momentum of block B**
-
-Since the collision is elastic, the total kinetic energy is conserved. We can use this fact to find the final velocity of block B. The kinetic energy of block B before the collision is:
-
-KE_B1 = 0.5 m_B v_B1^2
+p_A1 + p_B1 = p_A2 + p_B2
 
 Substituting the values, we get:
 
-KE_B1 = 0.5 x 200 x 10^-9 kg x (100 m/s)^2 = 1 x 10^-5 J
+0 + 20,000 = 100 \* v_A2 + 200 \* v_B2
 
-After the collision, the kinetic energy of block B is:
+**Step 3: Find the Velocity of Block B After the Collision**
 
-KE_B2 = 0.5 m_B v_B2^2
+We are given that the blocks move to the left after the collision. This means that the velocity of Block B after the collision (v_B2) is equal to the velocity of Block A after the collision (v_A2) but in the opposite direction. Therefore, we can write:
 
-Since the total kinetic energy is conserved, we can set up the equation:
+v_B2 = -v_A2
 
-1 x 10^-5 J = 0.5 x 200 x 10^-9 kg x v_B2^2
+Substituting this into the equation from Step 2, we get:
 
-Solving for v_B2, we get:
+0 + 20,000 = 100 \* v_A2 - 200 \* v_A2
 
-v_B2 = 10 m/s
+Simplifying the equation, we get:
 
-**Step 6: Calculate the final momentum of block A**
+20,000 = -100 \* v_A2
 
-Since the total momentum is conserved, we can use the fact that the final momentum of block A is equal to the initial momentum of block B. Therefore, the final momentum of block A is:
+Dividing both sides by -100, we find:
 
-p_A2 = p_B1 = 2 x 10^-6 kg m/s
+v_A2 = -200 m/s
 
-**Step 7: Calculate the final velocity of block A**
+Since the velocity is negative, it means that Block A moves to the left after the collision.
 
-The mass of block A is 100 nanograms, so its final velocity is:
+**Conclusion**
 
-v_A2 = p_A2 / m_A = 2 x 10^-6 kg m/s / 100 x 10^-9 kg = 20 m/s
-
-**Answer**: 20 m/s
+The velocity of Block A after the collision is -200 m/s. This means that Block A moves to the left with a speed of 200 m/s.

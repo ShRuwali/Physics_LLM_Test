@@ -1,23 +1,29 @@
-**Step 1: Identify the given parameters**
+**Gravitational Force between Planet A and the Moon**
+
+The gravitational force between two objects can be calculated using Newton's law of universal gravitation, which states that every point mass attracts every other point mass by a force acting along the line intersecting both points. The force is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
+
+**Given Data:**
 
 *   Mass of Planet A (M) = 6000 kg
-*   Radius of Planet A = 100 meters
-*   Distance between centers (d) = 3.0 x 10^9 meters
-*   Mass of Moon (m) = 2.0 x 10^22 kg
+*   Mass of the Moon (m) = 2.0 x 10^22 kg
+*   Distance between the centers of the two bodies (d) = 3.0 x 10^9 meters
 
-**Step 2: Determine the gravitational constant (G)**
+**Calculation:**
 
-*   The gravitational constant (G) is approximately 6.674 * 10^-11 N m^2 kg^-2
+The gravitational force (F) between two objects can be calculated using the formula:
 
-**Step 3: Calculate the gravitational force between the two bodies**
+F = G \* (M \* m) / d^2
 
-*   Use the formula for gravitational force: F = G \* (M \* m) / r^2
-*   Substitute the given values: F = (6.674 * 10^-11) \* (6000 * 2.0 * 10^22) / (3.0 * 10^9)^2
-*   Simplify the expression: F = (6.674 * 10^-11) \* (12.0 * 10^22) / (9.0 * 10^18)
-*   Calculate the force: F = 8.88 * 10^4 N
+where G is the gravitational constant (6.67408e-11 N\*m^2/kg^2).
 
-**Step 4: Evaluate the result**
+Plugging in the given values, we get:
 
-*   The calculated gravitational force is approximately 8.88 * 10^4 N
+F = (6.67408e-11) \* (6000 \* 2.0 x 10^22) / (3.0 x 10^9)^2
 
-**Answer**: 8.88 * 10^4 N
+F = (6.67408e-11) \* (1.2 x 10^27) / (9.0 x 10^18)
+
+F = 1.6 x 10^20 N
+
+**Conclusion:**
+
+The gravitational force between Planet A and the Moon is approximately 1.6 x 10^20 Newtons. This force is responsible for keeping the Moon in its orbit around Planet A.

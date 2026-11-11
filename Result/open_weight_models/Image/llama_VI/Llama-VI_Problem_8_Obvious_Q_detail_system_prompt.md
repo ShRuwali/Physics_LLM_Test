@@ -1,40 +1,36 @@
-**Step 1: Identify the physical law to be used**
+**Gravitational Force between Two Spherical Bodies**
 
-The gravitational force between two bodies can be calculated using Newton's law of universal gravitation, which states that every point mass attracts every other point mass by a force acting along the line intersecting both points. The force is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
+The figure illustrates the gravitational force between two spherical bodies, Planet A and the Moon. The necessary parameters are provided:
 
-**Step 2: Write down the formula**
+*   Mass of Planet A: 6000 kg
+*   Mass of the Moon: 2.0 x 10^22 kg
+*   Distance between the centers: 3.0 x 10^8 meters
 
-The formula for gravitational force is:
+**Gravitational Force Formula**
 
-F = G \* (m1 \* m2) / r^2
+The gravitational force between two spherical bodies can be calculated using the following formula:
+
+$$F = G \frac{m_1 m_2}{r^2}$$
 
 where:
 
-*   F is the gravitational force between the two bodies
-*   G is the gravitational constant (6.67408e-11 N\*m^2/kg^2)
-*   m1 and m2 are the masses of the two bodies
-*   r is the distance between the centers of the two bodies
+*   $F$ is the gravitational force
+*   $G$ is the gravitational constant (6.67408e-11 N m^2 kg^-2)
+*   $m_1$ and $m_2$ are the masses of the two bodies
+*   $r$ is the distance between the centers of the two bodies
 
-**Step 3: Plug in the values**
+**Calculation**
 
-From the figure, we have:
+Substituting the given values into the formula:
 
-*   m1 = 6000 kg (mass of Planet A)
-*   m2 = 2.0 x 10^22 kg (mass of the Moon)
-*   r = 3.0 x 10^9 meters (distance between the centers of the two bodies)
+$$F = 6.67408e-11 \frac{6000 \times 2.0 \times 10^{22}}{(3.0 \times 10^8)^2}$$
 
-**Step 4: Calculate the gravitational force**
+$$F = 6.67408e-11 \frac{1.2 \times 10^{26}}{9.0 \times 10^{16}}$$
 
-F = G \* (m1 \* m2) / r^2
+$$F = 6.67408e-11 \times 1.33333 \times 10^9$$
 
-F = 6.67408e-11 N\*m^2/kg^2 \* (6000 kg \* 2.0 x 10^22 kg) / (3.0 x 10^9 m)^2
+$$F = 8.8889e-2 N$$
 
-F = 6.67408e-11 N\*m^2/kg^2 \* 1.2 x 10^27 kg^2 / 9.0 x 10^18 m^2
+**Conclusion**
 
-F = 1.6 x 10^5 N
-
-**Step 5: Conclusion**
-
-The gravitational force between Planet A and the Moon is approximately 1.6 x 10^5 N.
-
-**Answer**: 1.6 x 10^5 N
+The gravitational force between Planet A and the Moon is approximately 8.8889e-2 N. This calculation assumes that both bodies are spherically symmetric and that the distance between their centers is the only factor affecting the gravitational force.

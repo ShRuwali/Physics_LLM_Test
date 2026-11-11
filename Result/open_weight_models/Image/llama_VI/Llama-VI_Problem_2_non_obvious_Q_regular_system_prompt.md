@@ -1,24 +1,39 @@
-**Step 1: Identify the necessary values**
+**Problem Description**
 
-*   Mass of the sphere (m) = 2.5 nanograms = 2.5 x 10^-9 kg
+The figure depicts a mass attached to a string, which is suspended from a fixed point. The mass is subjected to gravitational acceleration, causing it to oscillate. We are asked to calculate the time period of oscillation for small displacements.
+
+**Given Values**
+
+*   Mass (m) = 2.5 nanograms
+*   Diameter of sphere (D) = 1 nanometer
 *   Acceleration due to gravity (g) = 10.0 m/s^2
-*   Diameter of the sphere (D) = 1 nanometer = 1 x 10^-9 m
-*   Distance between the point of support and the center of the sphere (L) = 2.0 meters
+*   Distance between point of support and center of sphere (L) = 2.0 meters
 
-**Step 2: Calculate the radius of the sphere**
+**Step 1: Convert Mass to Kilograms**
 
-*   Radius of the sphere (r) = D/2 = 1 x 10^-9 / 2 = 0.5 x 10^-9 m
+To work with the standard unit of mass in physics (kilograms), we convert the mass from nanograms to kilograms:
 
-**Step 3: Calculate the time period of oscillation**
+m = 2.5 nanograms = 2.5 x 10^-9 kg
 
-*   The time period of oscillation (T) for a simple pendulum is given by the formula:
+**Step 2: Calculate the Acceleration Due to Gravity**
 
-    T = 2π√(L/g)
+The acceleration due to gravity is already given in the correct unit (m/s^2), so no conversion is needed.
 
-    where L is the length of the pendulum and g is the acceleration due to gravity.
+**Step 3: Calculate the Time Period of Oscillation**
 
-    T = 2π√(2.0/10.0) = 2π√0.2 = 2π x 0.447 = 2.82 seconds
+The time period (T) of a simple harmonic oscillator is given by the formula:
 
-**Step 4: Conclusion**
+T = 2π √(L/g)
+
+where L is the length of the string and g is the acceleration due to gravity.
+
+Plugging in the values, we get:
+
+T = 2π √(2.0 m / 10.0 m/s^2)
+= 2π √0.2
+= 2π x 0.447
+= 2.82 seconds
+
+**Conclusion**
 
 The time period of oscillation for small displacements is approximately 2.82 seconds.

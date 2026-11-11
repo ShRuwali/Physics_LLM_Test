@@ -1,7 +1,7 @@
 {
     "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
     "problem_question": "Problem_1_Obvious_Q",
-    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture.",
-    "total_output_tokens": 360,
-    "total_time_taken": 24.79365310999998
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture. Your answers should show exact equations and should not have Latex commands in itUse $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 418,
+    "total_time_taken": 17.63948823999999
 }

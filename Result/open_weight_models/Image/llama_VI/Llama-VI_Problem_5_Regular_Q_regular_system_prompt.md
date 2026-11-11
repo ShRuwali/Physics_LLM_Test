@@ -1,31 +1,70 @@
-**Step 1: Identify the type of collision**
+**Problem Description**
 
-The figure shows a block A moving towards a stationary block B. The collision is inelastic, as there is no friction between the blocks and the surface.
+The problem presents a scenario where two blocks, A and B, collide with each other. The initial velocities of the blocks are given as $v_a = 1.0 \text{ m/s}$ and $v_b = -2.0 \text{ m/s}$. The masses of the blocks are $m_a = 0.50 \text{ kg}$ and $m_b = 0.20 \text{ kg}$. The goal is to determine the velocity of block A after the collision.
 
-**Step 2: Apply the law of conservation of momentum**
+**Solution**
 
-The law of conservation of momentum states that the total momentum before the collision is equal to the total momentum after the collision. Since the blocks are moving in the same direction, we can use the following equation:
+To solve this problem, we can use the principle of conservation of momentum. This principle states that the total momentum before the collision is equal to the total momentum after the collision.
 
-m1v1 + m2v2 = (m1 + m2)v2'
+**Step 1: Calculate the Initial Momentum**
 
-where m1 and m2 are the masses of the blocks, v1 and v2 are their initial velocities, and v2' is the final velocity of block A.
+First, we calculate the initial momentum of each block:
 
-**Step 3: Plug in the values**
+$$
+\begin{aligned}
+p_a &= m_a \cdot v_a = 0.50 \text{ kg} \cdot 1.0 \text{ m/s} = 0.50 \text{ kg m/s} \\
+p_b &= m_b \cdot v_b = 0.20 \text{ kg} \cdot (-2.0 \text{ m/s}) = -0.40 \text{ kg m/s}
+\end{aligned}
+$$
 
-From the figure, we have:
+**Step 2: Apply the Principle of Conservation of Momentum**
 
-m1 = 0.50 kg (mass of block A)
-m2 = 0.20 kg (mass of block B)
-v1 = 1.0 m/s (initial velocity of block A)
-v2 = 0 (initial velocity of block B, since it is stationary)
+Since there is no friction between the blocks and the surface, the total momentum before the collision is equal to the total momentum after the collision. We can write this as:
 
-**Step 4: Solve for v2'**
+$$
+p_a + p_b = p_a' + p_b'
+$$
 
-Rearrange the equation to solve for v2':
+where $p_a'$ and $p_b'$ are the momenta of blocks A and B after the collision, respectively.
 
-v2' = (m1v1 + m2v2) / (m1 + m2)
-= (0.50 kg * 1.0 m/s + 0.20 kg * 0) / (0.50 kg + 0.20 kg)
-= 0.50 kg * 1.0 m/s / 0.70 kg
-= 0.7143 m/s
+**Step 3: Calculate the Final Velocities**
 
-**Answer**: 0.7143 m/s
+We can rearrange the equation from Step 2 to solve for the final velocities:
+
+$$
+\begin{aligned}
+p_a' &= p_a + p_b - p_b' \\
+p_b' &= p_a + p_b - p_a'
+\end{aligned}
+$$
+
+Since the blocks are inelastic, we assume that the collision is perfectly inelastic, meaning that the two blocks will stick together after the collision. Therefore, the final velocity of the combined blocks will be the same.
+
+Let's denote the final velocity of the combined blocks as $v_{ab}$. We can write:
+
+$$
+\begin{aligned}
+p_a' &= m_{ab} \cdot v_{ab} \\
+p_b' &= m_{ab} \cdot v_{ab}
+\end{aligned}
+$$
+
+where $m_{ab} = m_a + m_b = 0.50 \text{ kg} + 0.20 \text{ kg} = 0.70 \text{ kg}$.
+
+**Step 4: Solve for the Final Velocity**
+
+Now we can substitute the expressions for $p_a'$ and $p_b'$ into the equation from Step 3:
+
+$$
+\begin{aligned}
+m_{ab} \cdot v_{ab} &= p_a + p_b \\
+0.70 \text{ kg} \cdot v_{ab} &= 0.50 \text{ kg m/s} + (-0.40 \text{ kg m/s}) \\
+v_{ab} &= \frac{0.10 \text{ kg m/s}}{0.70 \text{ kg}} = 0.143 \text{ m/s}
+\end{aligned}
+$$
+
+**Conclusion**
+
+The final velocity of the combined blocks is $v_{ab} = 0.143 \text{ m/s}$. Since the blocks are inelastic, the final velocity of block A will be the same as the final velocity of the combined blocks.
+
+Therefore, the velocity of block A after the collision is $v_a' = 0.143 \text{ m/s}$.

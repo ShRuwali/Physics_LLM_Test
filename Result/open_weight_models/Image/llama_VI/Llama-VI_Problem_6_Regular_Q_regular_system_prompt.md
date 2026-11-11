@@ -1,51 +1,46 @@
 **Description of the Figures**
 
-The figures depict a spring and its behavior under different conditions. In Fig (a), the spring is stretched by a force of 5.0 N, resulting in an initial displacement of 0 meters and a final displacement of 0.020 meters. In Fig (b), the spring is replaced with a block of mass 0.40 kg, and the force required is proportional to the displacement of the spring.
+The figure consists of two parts, labeled Fig (a) and Fig (b). 
 
-**Calculating the Force Constant of the Spring**
+*   Fig (a) shows a spring with an initial displacement of 0 meters and a final displacement of 0.020 meters. The force required to stretch the spring is 5.0 N.
+*   Fig (b) shows a block attached to the spring with an initial displacement of 0 meters and a final displacement of 0.040 meters. The mass of the block is 0.40 kg.
 
-To calculate the force constant of the spring, we can use Hooke's Law, which states that the force required to stretch or compress a spring by a certain distance is proportional to that distance. Mathematically, this can be expressed as:
+**Calculation of Force Constant**
 
-F = kx
+To calculate the force constant of the spring, we can use Hooke's Law, which states that the force required to stretch a spring is proportional to its displacement. Mathematically, this can be expressed as:
+
+$$F = kx$$
 
 where F is the force, k is the force constant, and x is the displacement.
 
-Rearranging the equation to solve for k, we get:
+Rearranging this equation to solve for k, we get:
 
-k = F / x
+$$k = \frac{F}{x}$$
 
-Substituting the given values from Fig (a), we have:
+Plugging in the values from Fig (a), we get:
 
-k = 5.0 N / 0.020 m = 250 N/m
+$$k = \frac{5.0 \text{ N}}{0.020 \text{ m}} = 250 \text{ N/m}$$
 
-Therefore, the force constant of the spring is 250 N/m.
+**Calculation of Angular Frequency and Frequency**
 
-**Calculating the Angular Frequency and Frequency of Oscillation**
+Now that we have the force constant, we can calculate the angular frequency and frequency of the oscillation. The angular frequency is given by:
 
-In Fig (b), the spring is replaced with a block of mass 0.40 kg. The force required is still proportional to the displacement of the spring, and the initial and final displacements are 0 meters and 0.040 meters, respectively.
+$$\omega = \sqrt{\frac{k}{m}}$$
 
-To calculate the angular frequency and frequency of oscillation, we need to use the equation for the angular frequency of a mass-spring system:
+where m is the mass of the block.
 
-ω = √(k/m)
+Plugging in the values, we get:
 
-where ω is the angular frequency, k is the force constant, and m is the mass.
+$$\omega = \sqrt{\frac{250 \text{ N/m}}{0.40 \text{ kg}}} = 15.81 \text{ rad/s}$$
 
-Substituting the values, we get:
+The frequency is given by:
 
-ω = √(250 N/m / 0.40 kg) = 15.81 rad/s
+$$f = \frac{\omega}{2\pi}$$
 
-The frequency of oscillation (f) is related to the angular frequency by the following equation:
+Plugging in the value of ω, we get:
 
-f = ω / 2π
+$$f = \frac{15.81 \text{ rad/s}}{2\pi} = 2.51 \text{ Hz}$$
 
-Substituting the value of ω, we get:
+**Conclusion**
 
-f = 15.81 rad/s / 2π = 2.51 Hz
-
-Therefore, the angular frequency of the oscillation is 15.81 rad/s, and the frequency is 2.51 Hz.
-
-**Answer**
-
-*   The force constant of the spring is 250 N/m.
-*   The angular frequency of the oscillation is 15.81 rad/s.
-*   The frequency of the oscillation is 2.51 Hz.
+In conclusion, the force constant of the spring is 250 N/m, and the angular frequency and frequency of the oscillation are 15.81 rad/s and 2.51 Hz, respectively.

@@ -3,50 +3,59 @@
 The figures depict two scenarios:
 
 *   **Fig (a)**: A spring is stretched by a force, resulting in an initial displacement of 0 meters and a final displacement of 20 meters. The force required is proportional to the displacement of the spring.
-*   **Fig (b)**: A block is attached to the spring, which is then stretched. The initial displacement is 0 meters, and the final displacement is 0.040 meters. The mass of the block is 500 nanograms, and the length, width, and height of the block are 400 nanometers each.
+*   **Fig (b)**: A block is attached to a spring, with an initial displacement of 0 meters and a final displacement of 0.040 meters. The mass of the block is 500 nanograms, and the length, width, and height are 400 nanometers each.
 
-**Calculations for Fig (a)**
+**Calculation of Force Constant**
 
-To calculate the force constant of the spring, we can use Hooke's Law:
+To calculate the force constant of the spring in Fig (a), we can use Hooke's Law:
 
-F = kx
+$$F = kx$$
 
-where F is the force, k is the force constant, and x is the displacement.
+where:
 
-Given that the force required is 0 N and the initial displacement is 0 meters, we can assume that the force constant is zero. However, this is not possible in reality, as it would mean that the spring does not exert any force. Therefore, we will assume that the force constant is not zero.
+*   $F$ is the force applied to the spring
+*   $k$ is the force constant of the spring
+*   $x$ is the displacement of the spring
 
-Rearranging the equation to solve for k, we get:
+Given that the initial displacement is 0 meters and the final displacement is 20 meters, we can calculate the force constant as follows:
 
-k = F / x
+$$k = \frac{F}{x} = \frac{0}{20} = 0$$
 
-Substituting the given values, we get:
+However, this is not possible, as the force constant cannot be zero. Therefore, we need to re-evaluate the calculation.
 
-k = 0 N / 20 m = 0 N/m
+The correct calculation is:
 
-This is an unrealistic result, as the force constant cannot be zero. Let's assume that the force constant is actually 100 N/m (a reasonable value for a spring).
+$$k = \frac{F}{x} = \frac{F}{20}$$
 
-**Calculations for Fig (b)**
+Since the force is not given, we cannot determine the exact value of the force constant. However, we can express it in terms of the force:
 
-To calculate the angular frequency and frequency of the oscillation, we need to use the following equations:
+$$k = \frac{F}{20}$$
 
-ω = √(k / m)
+**Calculation of Angular Frequency and Frequency**
 
-f = ω / 2π
+To calculate the angular frequency and frequency of the oscillation in Fig (b), we can use the following equations:
 
-where ω is the angular frequency, f is the frequency, k is the force constant, and m is the mass.
+$$\omega = \sqrt{\frac{k}{m}}$$
 
-Given that the mass of the block is 500 nanograms, we can convert it to kilograms:
+$$f = \frac{1}{2\pi} \sqrt{\frac{k}{m}}$$
 
-m = 500 ng = 5 × 10^(-7) kg
+where:
 
-Using the force constant value of 100 N/m, we can calculate the angular frequency:
+*   $\omega$ is the angular frequency
+*   $f$ is the frequency
+*   $k$ is the force constant of the spring
+*   $m$ is the mass of the block
 
-ω = √(100 N/m / 5 × 10^(-7) kg) = 1414.14 rad/s
+First, we need to calculate the force constant of the spring. Since the block is attached to the spring, the force constant is the same as in Fig (a). However, we cannot determine the exact value of the force constant without knowing the force.
 
-Finally, we can calculate the frequency:
+Assuming that the force constant is the same as in Fig (a), we can calculate the angular frequency and frequency as follows:
 
-f = ω / 2π = 1414.14 rad/s / 2π = 224.5 Hz
+$$\omega = \sqrt{\frac{k}{m}} = \sqrt{\frac{F/20}{500 \times 10^{-9}}}$$
 
-**Answer**
+$$f = \frac{1}{2\pi} \sqrt{\frac{k}{m}} = \frac{1}{2\pi} \sqrt{\frac{F/20}{500 \times 10^{-9}}}$$
 
-The force constant of the spring is 100 N/m. The angular frequency of the oscillation is 1414.14 rad/s, and the frequency is 224.5 Hz.
+Since we do not know the exact value of the force, we cannot determine the exact values of the angular frequency and frequency. However, we can express them in terms of the force:
+
+$$\omega = \sqrt{\frac{F/20}{500 \times 10^{-9}}}$$
+
+$$f = \frac{1}{2\pi} \sqrt{\frac{F/20}{500 \times 10^{-9}}}$$

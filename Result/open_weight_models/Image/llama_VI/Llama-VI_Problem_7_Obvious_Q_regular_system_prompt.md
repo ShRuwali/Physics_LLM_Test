@@ -1,20 +1,21 @@
-**Step 1: Identify the necessary values**
+The figure shows a block of mass 1000 nanograms suspended in a tank of sea water. The block is connected to a cable that passes over a pulley and is attached to a wall. The length of the cable is 100 nanometers, and the width and height of the block are both 100 nanometers.
 
-*   Mass of the block (m) = 1000 nanograms = 1.0 x 10^-9 kg
-*   Length of the cable = 100 nanometers = 1.0 x 10^-7 m
-*   Density of the block (D) = 1.0 x 10^9 kg/m^3
-*   Acceleration due to gravity (g) = 10.0 m/s^2
+The density of the block is 1.0 x 10^9 kg/m^3, and the density of the sea water is 1.03 x 10^3 kg/m^3. The acceleration due to gravity (g) is 10.0 m/s^2 upward.
 
-**Step 2: Calculate the volume of the block**
+To calculate the tension (T) in the cable, we can use the following formula:
 
-*   Volume of the block = mass / density = 1.0 x 10^-9 kg / 1.0 x 10^9 kg/m^3 = 1.0 x 10^-18 m^3
+T = m * g
 
-**Step 3: Calculate the weight of the block**
+where m is the mass of the block and g is the acceleration due to gravity.
 
-*   Weight of the block = mass x g = 1.0 x 10^-9 kg x 10.0 m/s^2 = 1.0 x 10^-8 N
+First, we need to convert the mass of the block from nanograms to kilograms:
 
-**Step 4: Calculate the tension in the cable**
+m = 1000 ng = 1.0 x 10^-7 kg
 
-*   Tension in the cable = weight of the block = 1.0 x 10^-8 N
+Next, we can plug in the values into the formula:
 
-**Answer:** The tension in the cable is 1.0 x 10^-8 N.
+T = 1.0 x 10^-7 kg * 10.0 m/s^2 = 1.0 x 10^-6 N
+
+Therefore, the tension in the cable is 1.0 x 10^-6 N.
+
+**Answer:** 1.0 x 10^-6 N

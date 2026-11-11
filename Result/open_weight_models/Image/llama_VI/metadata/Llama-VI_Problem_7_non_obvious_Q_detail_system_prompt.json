@@ -1,7 +1,7 @@
 {
     "requested_model": "meta-llama/Llama-3.2-11B-Vision-Instruct",
     "problem_question": "Problem_7_non_obvious_Q",
-    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the picture. But if there are any physical laws broken, unreasonable parameters, or assumptions of a physical model are challenged then mention it and also mention if the solution is physically justfiable or not.",
-    "total_output_tokens": 622,
-    "total_time_taken": 26.824600488999977
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the picture. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt. But if there are any physical laws broken, unreasonable parameters, or assumptions of a physical model are challenged then mention it and also mention if the solution is physically justfiable or not.",
+    "total_output_tokens": 492,
+    "total_time_taken": 20.896678013999917
 }
