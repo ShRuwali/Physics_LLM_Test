@@ -1,0 +1,14 @@
+{
+    "requested_model": "openai/gpt-5.6-luna-pro",
+    "returned_model": "openai/gpt-5.6-luna-pro",
+    "response_id": "gen-1794359944-eOwjBtIZ4STIp0e1TqGi",
+    "problem_text": "A block of mass (m) 1000 nanograms, length=width=height=100 nanometer and a density (D) of 1.0 x 10$^{9}$ kg/m$^3$ is immersed in sea water using a cable and is at rest. The density of sea water (d) is 1.03 x 10$^3$ kg/m$^3$. The acceleration due to gravity (g) at that location is 10 m/s$^2$. Calculate the tension (T) in the cable.",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 4759,
+        "output_tokens": 2907,
+        "total_tokens": 7666
+    }
+}

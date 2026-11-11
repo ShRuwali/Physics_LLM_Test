@@ -1,0 +1,14 @@
+{
+    "requested_model": "google/gemini-3.6-flash",
+    "returned_model": "google/gemini-3.6-flash",
+    "response_id": "gen-1794360348-Ii4C00bABtwhoGZutNeq",
+    "problem_text": "A simple pendulum has a solid sphere of mass (m) 2.0 kg and a string of negligible mass. The distance between the point of support and the center of the spherical mass is L = 2.0 meters, and the radius of the solid sphere is (L/2)=1.0 meter. The acceleration due to gravity is 10.0 m/s$^2$ at the location. Find the time period of this pendulum for small displacements.",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 132,
+        "output_tokens": 2492,
+        "total_tokens": 2624
+    }
+}

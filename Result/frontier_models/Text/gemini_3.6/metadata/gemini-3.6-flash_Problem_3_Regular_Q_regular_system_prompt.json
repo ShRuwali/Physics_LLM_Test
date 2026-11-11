@@ -1,0 +1,14 @@
+{
+    "requested_model": "google/gemini-3.6-flash",
+    "returned_model": "google/gemini-3.6-flash",
+    "response_id": "gen-1794360392-5XpZg8xzdKiUNqMmK21u",
+    "problem_text": "A solid sphere (a rigid body) of mass (m) 2.0 kg, released from rest on an inclined plane at a height (h) of 7.0 meters and rolls without slipping. Calculate the velocity of the solid sphere at the bottom of the plane using conservation of energy. The acceleration due to gravity (g) at the location is 10.0 m/s$^2$.",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 119,
+        "output_tokens": 1711,
+        "total_tokens": 1830
+    }
+}

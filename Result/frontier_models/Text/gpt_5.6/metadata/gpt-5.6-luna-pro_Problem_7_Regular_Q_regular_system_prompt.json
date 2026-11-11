@@ -1,0 +1,14 @@
+{
+    "requested_model": "openai/gpt-5.6-luna-pro",
+    "returned_model": "openai/gpt-5.6-luna-pro",
+    "response_id": "gen-1794359936-NCVjsJYq2jAbkOExDC6O",
+    "problem_text": "A block of mass (m)= 20.0 kg and a density (D) of 19.0 x 10$^{3}$ kg/m$^3$ is immersed in sea water using a cable and is at rest. The density of sea water (d) is 1.03 x 10$^3$ kg/m$^3$. The acceleration due to gravity (g) at that location is 10 m/s$^2$. Calculate the tension (T) in the cable.",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 3010,
+        "output_tokens": 1290,
+        "total_tokens": 4300
+    }
+}

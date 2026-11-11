@@ -1,0 +1,14 @@
+{
+    "requested_model": "google/gemini-3.6-flash",
+    "returned_model": "google/gemini-3.6-flash",
+    "response_id": "gen-1794360400-9ENI6jm9xfYGKK3BGrrm",
+    "problem_text": "A solid sphere (a rigid body) of mass (m) 4 nanograms and a diameter of 8 nanometers, released from rest on an inclined plane at a height of 7.0 meters. Calculate the velocity of the solid sphere at the bottom of the plane using conservation of energy. The acceleration due to gravity at the location is 10.0 m/s$^2$.",
+    "prompt_name": "regular_system_prompt",
+    "system_prompt": "You are a physics expert. Based on the question that is given solve the problem. The question has equations and symbols in latex, but your answer should not be in latex.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 116,
+        "output_tokens": 2054,
+        "total_tokens": 2170
+    }
+}
