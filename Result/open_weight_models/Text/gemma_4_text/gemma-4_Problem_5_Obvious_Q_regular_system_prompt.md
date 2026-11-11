@@ -1,44 +1,43 @@
-To solve this problem, we will use the principles of Hooke's Law and Simple Harmonic Motion (SHM).
+To solve this problem, we will use the **Law of Conservation of Momentum**. Since there is no friction, the total momentum of the system before the collision must equal the total momentum of the system after the collision.
 
-**1. Calculate the Force Constant (k)**
-According to Hooke's Law, the force (F) exerted by a spring is directly proportional to its displacement (x):
-F = k * x
+### 1. Identify the Given Information
+First, let's standardize the units to the SI system (kilograms, meters, seconds).
 
-Given:
-Force (F) = 5.0 N
-Displacement (x) = 0.020 m
+**Block A:**
+*   Mass (ma) = 100 nanograms = 100 * 10^-9 g = 100 * 10^-12 kg = 10^-10 kg
+*   Initial Velocity (va1) = 0 m/s
 
-Rearranging the formula to solve for k:
-k = F / x
-k = 5.0 N / 0.020 m
-**k = 250 N/m**
+**Block B:**
+*   Mass (mb) = 200 nanograms = 200 * 10^-12 kg = 2 * 10^-10 kg
+*   Initial Velocity (vb1) = -100 m/s (The problem states it is moving to the left, while Block A is moving to the right. We will define "Right" as positive and "Left" as negative).
+*   *Note: There is a contradiction in your prompt where it says Block B is moving left at 100 m/s but then says it is moving right. Based on the standard "moving towards each other" setup, I will treat Block B's initial velocity as negative (Left).*
 
-**2. Calculate the Angular Frequency (ω)**
-The angular frequency of a mass-spring system is given by the formula:
-ω = √(k / m)
+**After Collision:**
+*   Final Velocity of Block B (vb2) = 10 km/s = 10,000 m/s (Moving to the right, so positive).
+*   Final Velocity of Block A (va2) = ?
 
-Given:
-Force constant (k) = 250 N/m
-Mass (m) = 0.40 kg
+### 2. The Equation
+The conservation of momentum formula is:
+ma * va1 + mb * vb1 = ma * va2 + mb * vb2
 
-Calculation:
-ω = √(250 / 0.40)
-ω = √625
-**ω = 25 rad/s**
+### 3. Calculation
+Plug the values into the equation:
+(10^-10 kg * 0 m/s) + (2 * 10^-10 kg * -100 m/s) = (10^-10 kg * va2) + (2 * 10^-10 kg * 10,000 m/s)
 
-**3. Calculate the Frequency (f)**
-The relationship between angular frequency (ω) and ordinary frequency (f) is:
-ω = 2 * π * f
+Simplify the terms:
+0 + (-2 * 10^-8) = (10^-10 * va2) + (2 * 10^-6)
 
-Rearranging to solve for f:
-f = ω / (2 * π)
+Move the terms to solve for va2:
+-2 * 10^-8 - 2 * 10^-6 = 10^-10 * va2
 
-Calculation:
-f = 25 / (2 * 3.14159)
-f = 25 / 6.28318
-**f ≈ 3.98 Hz**
+Convert to a common exponent (10^-6):
+-0.02 * 10^-6 - 2 * 10^-6 = 10^-10 * va2
+-2.02 * 10^-6 = 10^-10 * va2
 
-**Final Answers:**
-Force constant (k) = 250 N/m
-Angular frequency (ω) = 25 rad/s
-Frequency (f) = 3.98 Hz
+Divide by the mass of Block A:
+va2 = (-2.02 * 10^-6) / 10^-10
+va2 = -2.02 * 10^4
+va2 = -20,200 m/s
+
+### Final Answer:
+The final velocity of block A (va2) is **-20,200 m/s** (or 20.2 km/s to the left).

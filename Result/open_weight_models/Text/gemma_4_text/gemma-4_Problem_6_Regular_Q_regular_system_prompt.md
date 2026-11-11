@@ -1,7 +1,7 @@
-To solve this problem, we will break it down into three steps: finding the force constant, calculating the angular frequency, and determining the frequency of oscillation.
+To solve this problem, we will use the principles of Hooke's Law and Simple Harmonic Motion (SHM).
 
 **1. Calculate the Force Constant (k)**
-According to Hooke's Law, the force (F) exerted by a spring is proportional to its displacement (x):
+According to Hooke's Law, the force (F) exerted by a spring is directly proportional to its displacement (x):
 F = k * x
 
 Given:
@@ -11,36 +11,34 @@ Displacement (x) = 0.020 m
 Rearranging the formula to solve for k:
 k = F / x
 k = 5.0 N / 0.020 m
-k = 250 N/m
+**k = 250 N/m**
 
-**2. Calculate the Angular Frequency (omega)**
+**2. Calculate the Angular Frequency (ω)**
 The angular frequency of a mass-spring system is given by the formula:
-omega = the square root of (k / m)
+ω = √(k / m)
 
-First, we must convert the mass (m) from nanograms to kilograms (the standard SI unit):
-Mass (m) = 500 nanograms
-1 nanogram = 10^-9 grams
-1 gram = 10^-3 kilograms
-So, 500 nanograms = 500 * 10^-9 * 10^-3 kg = 500 * 10^-12 kg
-m = 5 * 10^-10 kg
+Given:
+Force constant (k) = 250 N/m
+Mass (m) = 0.40 kg
 
-Now, substitute the values into the angular frequency formula:
-omega = sqrt(250 / (5 * 10^-10))
-omega = sqrt(50 * 10^10)
-omega = sqrt(5 * 10^11)
-omega = sqrt(50 * 10^10)
-omega = 7.07 * 10^5 rad/s
+Calculation:
+ω = √(250 / 0.40)
+ω = √625
+**ω = 25 rad/s**
 
 **3. Calculate the Frequency (f)**
-The relationship between angular frequency (omega) and ordinary frequency (f) is:
-f = omega / (2 * pi)
+The relationship between angular frequency (ω) and ordinary frequency (f) is:
+ω = 2 * π * f
 
-Using the value of omega calculated above:
-f = (7.07 * 10^5) / (2 * 3.14159)
-f = (7.07 * 10^5) / 6.283
-f = 1.125 * 10^5 Hz
+Rearranging to solve for f:
+f = ω / (2 * π)
+
+Calculation:
+f = 25 / (2 * 3.14159)
+f = 25 / 6.28318
+**f ≈ 3.98 Hz**
 
 **Final Answers:**
-Force Constant (k) = 250 N/m
-Angular Frequency (omega) = 7.07 * 10^5 rad/s
-Frequency (f) = 1.125 * 10^5 Hz (or 112.5 kHz)
+Force constant (k) = 250 N/m
+Angular frequency (ω) = 25 rad/s
+Frequency (f) = 3.98 Hz

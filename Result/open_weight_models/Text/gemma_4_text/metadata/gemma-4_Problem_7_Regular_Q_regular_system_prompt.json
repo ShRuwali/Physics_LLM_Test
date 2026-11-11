@@ -1,7 +1,7 @@
 {
     "requested_model": "google/gemma-4-12B-it",
-    "problem_text": "A block of mass (m) 1000 nanograms, length=width=height=100 nanometers and a density (D) of 1.0 x 10$^{12}$ kg/m$^3$ is immersed in sea water using a cable and is at rest. The density of sea water (d) is 1.03 x 10$^3$ kg/m$^3$. The acceleration due to gravity (g) at that location is 10 m/s$^2$. Calculate the tension (T) in the cable.",
+    "problem_text": "A block of mass (m)= 20.0 kg and a density (D) of 19.0 x 10$^{3}$ kg/m$^3$ is immersed in sea water using a cable and is at rest. The density of sea water (d) is 1.03 x 10$^3$ kg/m$^3$. The acceleration due to gravity (g) at that location is 10 m/s$^2$. Calculate the tension (T) in the cable.",
     "prompt_name": "regular_system_prompt",
-    "total_output_tokens": 808,
-    "total_time_taken": 74.54392804200006
+    "total_output_tokens": 487,
+    "total_time_taken": 48.120142018000024
 }
