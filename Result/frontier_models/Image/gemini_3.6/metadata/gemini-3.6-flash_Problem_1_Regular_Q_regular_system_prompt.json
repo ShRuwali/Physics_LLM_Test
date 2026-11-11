@@ -1,0 +1,13 @@
+{
+    "requested_model": "google/gemini-3.6-flash",
+    "returned_model": "google/gemini-3.6-flash",
+    "response_id": "gen-1794378257-jaqTN2SVBAA2QBcESbs4",
+    "prompt_name": "Problem_1_Regular_Q",
+    "system_prompt": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture. Your answers should show exact equations and should not have Latex commands in itUse $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": null,
+        "output_tokens": null,
+        "total_tokens": 3717
+    }
+}
