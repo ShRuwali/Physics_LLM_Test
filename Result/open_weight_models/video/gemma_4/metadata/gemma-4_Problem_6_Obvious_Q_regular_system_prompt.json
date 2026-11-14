@@ -1,7 +1,7 @@
 {
     "requested_model": "google/gemma-4-12B-it",
     "problem_question": "Problem_6_Obvious_Q",
-    "prompt_name": "You are a physics expert. From the video provide a brief description. From the top half of the video calculate the force constant of the spring. The spring from the top half of the video is now replaced with a block as shown in the bottom half of the video. Calculate the angular frequency and the frequecy of the oscillation. In both the cases the force required is proportional to the displacement of the spring. All the necessary values and conditions required are given in the video.",
-    "total_output_tokens": 924,
-    "total_time_taken": 85.12898734399914
+    "prompt_name": "You are a physics expert. From the video provide a brief description. From the top half of the video calculate the force constant of the spring. The spring from the top half of the video is now replaced with a block as shown in the bottom half of the video. Calculate the angular frequency and the frequecy of the oscillation. In both the cases the force required is proportional to the displacement of the spring. All the necessary values and conditions required are given in the video. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 779,
+    "total_time_taken": 75.19405278399972
 }

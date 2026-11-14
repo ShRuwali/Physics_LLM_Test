@@ -1,22 +1,22 @@
-Based on the provided image, here is the description and the calculation for the time period of oscillation.
+Based on the provided image, we can describe the physical system and calculate the time period of oscillation for a simple pendulum.
 
-### **Description**
-The image shows a simple pendulum consisting of a sphere of mass $m$ suspended by a string of negligible mass. The sphere is hanging from a support bar. The system is intended to undergo small oscillations.
+### Description
+The image shows a simple pendulum consisting of a sphere of mass $m$ suspended by a string of negligible mass from a fixed support. The sphere has a diameter $D = 1 \text{ nm}$ and a mass $m = 5 \text{ nanograms}$. The distance between the point of support and the center of the sphere is $L = 2.0 \text{ meters}$. The acceleration due to gravity is given as $g = 10.0 \text{ m/s}^2$.
 
-### **Given Data**
-*   **Diameter of sphere ($D$):** $1\text{ nm} = 1 \times 10^{-9}\text{ m}$
-*   **Mass of sphere ($m$):** $5\text{ nanograms} = 5 \times 10^{-9}\text{ g} = 5 \times 10^{-12}\text{ kg}$
-*   **Length of pendulum ($L$):** $2.0\text{ meters}$
-*   **Acceleration due to gravity ($g$):** $10.0\text{ m/s}^2$
+### Calculation of the Time Period
+For small angular displacements, the motion of a simple pendulum can be modeled as simple harmonic motion. The formula for the time period $T$ of a simple pendulum is:
 
-### **Calculation**
-For a simple pendulum undergoing small displacements, the time period of oscillation ($T$) is given by the formula:
 $$T = 2\pi \sqrt{\frac{L}{g}}$$
 
-Substituting the given values:
-$$T = 2\pi \sqrt{\frac{2.0\text{ m}}{10.0\text{ m/s}^2}}$$
-$$T = 2\pi \sqrt{0.2}$$
-$$T \approx 2 \times 3.14159 \times 0.4472$$
-$$T \approx 2.81\text{ seconds}$$
+Given values:
+- Length of the pendulum, $L = 2.0 \text{ m}$
+- Acceleration due to gravity, $g = 10.0 \text{ m/s}^2$
 
-**The time period of oscillation for small displacements is approximately 2.81 seconds.**
+Substituting these values into the formula:
+
+$$T = 2\pi \sqrt{\frac{2.0 \text{ m}}{10.0 \text{ m/s}^2}}$$
+$$T = 2\pi \sqrt{0.2 \text{ s}^2}$$
+$$T = 2\pi \times 0.4472 \text{ s}$$
+$$T \approx 2.81 \text{ s}$$
+
+The time period of oscillation for small displacements is approximately **$2.81 \text{ seconds}$**.

@@ -1,7 +1,7 @@
 {
     "requested_model": "google/gemma-4-12B-it",
     "problem_question": "Problem_4_non_obvious_Q",
-    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the tension in the string at the bottom the the circle. All the necessary values and conditions required are given in the video.",
-    "total_output_tokens": 556,
-    "total_time_taken": 51.32889229700049
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the tension in the string at the bottom the the circle. All the necessary values and conditions required are given in the video. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 640,
+    "total_time_taken": 61.90144492399986
 }

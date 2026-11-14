@@ -1,30 +1,44 @@
-Based on the video provided, here is the physics analysis:
+Based on the video provided, here is the description and calculation for the collision between Block A and Block B.
 
-### **Description**
-The video depicts a one-dimensional collision between two blocks, **Block A** (blue) and **Block B** (orange), moving toward each other on a horizontal surface.
-*   **Block A:** Mass ($m_A$) = 100 ng, Initial velocity ($v_{A1}$) = +1.0 m/s.
-*   **Block B:** Mass ($m_B$) = 200 ng, Initial velocity ($v_{B1}$) = -2.0 m/s.
+### Description
+The video depicts a one-dimensional elastic collision between two blocks, Block A and Block B, moving toward each other on a horizontal surface. 
+- **Block A** has a mass of $100\text{ nanograms}$ and an initial velocity $v_{A1} = 1.0\text{ m/s}$.
+- **Block B** has a mass of $200\text{ nanograms}$ and an initial velocity $v_{B1} = -2.0\text{ m/s}$.
+- After the collision, the velocity of Block B is given as $v_{B2} = 1.0\text{ m/s}$.
 
-### **Calculation of Velocity of Block A ($v_{A2}$)**
-To solve for the final velocity of Block A, we must assume the collision is **perfectly inelastic** (the blocks stick together) or **perfectly elastic**. However, the video provides a specific "After collision" state for Block B ($v_{B2} = 1.0$ m/s). We can use the **Law of Conservation of Momentum** to find $v_{A2}$.
+### Calculation
+To find the velocity of Block A after the collision ($v_{A2}$), we use the **Law of Conservation of Momentum**. Since there are no external horizontal forces, the total momentum before the collision must equal the total momentum after the collision.
 
-**Formula:**
+The formula for conservation of momentum is:
 $$m_A v_{A1} + m_B v_{B1} = m_A v_{A2} + m_B v_{B2}$$
 
-**Plugging in the values:**
-$$(100 \text{ ng} \cdot 1.0 \text{ m/s}) + (200 \text{ ng} \cdot -2.0 \text{ m/s}) = (100 \text{ ng} \cdot v_{A2}) + (200 \text{ ng} \cdot 1.0 \text{ m/s})$$
-$$100 - 400 = 100 v_{A2} + 200$$
-$$-300 = 100 v_{A2} + 200$$
-$$-500 = 100 v_{A2}$$
-$$v_{A2} = -5.0 \text{ m/s}$$
+**Given values:**
+- $m_A = 100\text{ ng}$
+- $m_B = 200\text{ ng}$
+- $v_{A1} = 1.0\text{ m/s}$
+- $v_{B1} = -2.0\text{ m/s}$
+- $v_{B2} = 1.0\text{ m/s}$
 
-### **Physical Law Violations**
-The problem **cannot be solved consistently** because it violates the **Law of Conservation of Kinetic Energy** and the **Law of Conservation of Momentum** simultaneously.
+**Step-by-step calculation:**
+1. Substitute the known values into the equation:
+$$(100)(1.0) + (200)(-2.0) = (100)v_{A2} + (200)(1.0)$$
 
-1.  **Momentum Violation:** As calculated above, for Block B to end up with a velocity of $+1.0$ m/s, Block A would have to recoil at $-5.0$ m/s. However, in the video, Block A appears to stop or move very slowly, which contradicts the momentum calculation.
-2.  **Kinetic Energy Violation:** 
-    *   Initial Kinetic Energy ($KE_i$): $\frac{1}{2}(100)(1)^2 + \frac{1}{2}(200)(-2)^2 = 50 + 400 = 450 \text{ units}$.
-    *   Final Kinetic Energy ($KE_f$) using the calculated $v_{A2} = -5.0$: $\frac{1}{2}(100)(-5)^2 + \frac{1}{2}(200)(1)^2 = 1250 + 100 = 1350 \text{ units}$.
-    *   **Conclusion:** The system gains kinetic energy out of nowhere (from 450 to 1350), which is physically impossible in a closed system.
+2. Simplify the left side:
+$$100 - 400 = 100v_{A2} + 200$$
+$$-300 = 100v_{A2} + 200$$
 
-**Final Verdict:** The problem is **unsolvable** as a real-world physics scenario because the provided "After collision" data for Block B is mathematically inconsistent with the initial conditions and the laws of physics.
+3. Isolate the term with $v_{A2}$:
+$$-300 - 200 = 100v_{A2}$$
+$$-500 = 100v_{A2}$$
+
+4. Solve for $v_{A2}$:
+$$v_{A2} = \frac{-500}{100}$$
+$$v_{A2} = -5.0\text{ m/s}$$
+
+**Final Answer:**
+The velocity of Block A after the collision is $v_{A2} = -5.0\text{ m/s}$.
+
+### Physical Justification
+The solution is **physically justifiable**. We can check the coefficient of restitution ($e$) to see if the collision is elastic.
+$$e = \frac{v_{B2} - v_{A2}}{v_{A1} - v_{B1}} = \frac{1.0 - (-5.0)}{1.0 - (-2.0)} = \frac{6.0}{3.0} = 2.0$$
+In a standard physical collision, the coefficient of restitution $e$ must be between $0$ and $1$ (where $e=1$ is perfectly elastic). A value of $e=2.0$ implies that kinetic energy is being created during the collision, which violates the law of conservation of energy. Therefore, while the momentum calculation is mathematically correct based on the provided numbers, the scenario described in the video is **physically impossible** for a passive collision.

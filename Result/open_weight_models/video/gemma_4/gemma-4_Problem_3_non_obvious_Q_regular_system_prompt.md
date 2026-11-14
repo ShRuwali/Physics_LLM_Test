@@ -1,38 +1,48 @@
-To find the velocity of the solid sphere at the bottom of the plane, we use the principle of **Conservation of Mechanical Energy**.
+Based on the video provided, here is the description and the calculation for the velocity of the solid sphere at the bottom of the plane.
 
-### 1. Given Data:
-*   **Mass ($m$):** $\approx 4 \text{ nanograms} = 4 \times 10^{-12} \text{ kg}$
-*   **Diameter ($d$):** $8 \text{ nanometers} \rightarrow \text{Radius } (r) = 4 \text{ nm} = 4 \times 10^{-9} \text{ m}$
+### Description
+The video shows a solid sphere (rigid body) starting from rest at a height $h$ and rolling down an inclined plane without slipping. The goal is to determine its final velocity at the bottom of the plane using the principle of conservation of energy.
+
+### Given Data
+*   **Mass of the sphere ($m$):** $\approx 4 \text{ nanograms} = 4 \times 10^{-12} \text{ kg}$
+*   **Diameter of the sphere ($d$):** $8 \text{ nanometers} = 8 \times 10^{-9} \text{ m}$
 *   **Acceleration due to gravity ($g$):** $10.0 \text{ m/s}^2$
 *   **Height ($h$):** $7.0 \text{ meters}$
-*   **Initial state:** Starts from rest ($v_i = 0, \omega_i = 0$).
-*   **Condition:** Rolls without slipping.
+*   **Moment of Inertia of a solid sphere ($I$):** $I = \frac{2}{5}mr^2$ (where $r$ is the radius)
 
-### 2. Physics Principles:
-Since the sphere rolls without slipping, the total kinetic energy ($K$) at the bottom is the sum of translational and rotational kinetic energy:
-$$K = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
+### Calculation
+Since the sphere rolls without slipping, the total mechanical energy at the top (potential energy) is equal to the total mechanical energy at the bottom (kinetic energy).
 
-For a solid sphere, the moment of inertia is $I = \frac{2}{5}mr^2$.
-Because it rolls without slipping, the angular velocity is $\omega = \frac{v}{r}$.
+**1. Energy at the top:**
+The total energy is purely gravitational potential energy:
+$$E_{top} = mgh$$
 
-Substituting these into the kinetic energy equation:
-$$K = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{2}{5}mr^2\right)\left(\frac{v}{r}\right)^2$$
-$$K = \frac{1}{2}mv^2 + \frac{1}{5}mv^2 = \frac{7}{10}mv^2$$
+**2. Energy at the bottom:**
+The total energy is the sum of translational kinetic energy and rotational kinetic energy:
+$$E_{bottom} = \frac{1}{2}mv^2 + \frac{1}{2}I\omega^2$$
 
-### 3. Conservation of Energy:
-Potential energy at the top ($U$) equals total kinetic energy at the bottom ($K$):
+Since it rolls without slipping, the relationship between linear velocity ($v$) and angular velocity ($\omega$) is:
+$$\omega = \frac{v}{r}$$
+
+Substitute $I$ and $\omega$ into the energy equation:
+$$E_{bottom} = \frac{1}{2}mv^2 + \frac{1}{2}\left(\frac{2}{5}mr^2\right)\left(\frac{v}{r}\right)^2$$
+$$E_{bottom} = \frac{1}{2}mv^2 + \frac{1}{5}mv^2$$
+$$E_{bottom} = \frac{7}{10}mv^2$$
+
+**3. Conservation of Energy:**
+Equating the energy at the top and the bottom:
 $$mgh = \frac{7}{10}mv^2$$
 
-The mass ($m$) cancels out:
+The mass $m$ cancels out:
 $$gh = \frac{7}{10}v^2$$
 $$v^2 = \frac{10gh}{7}$$
 $$v = \sqrt{\frac{10gh}{7}}$$
 
-### 4. Calculation:
+**4. Final Calculation:**
+Substitute the given values:
 $$v = \sqrt{\frac{10 \times 10.0 \times 7.0}{7}}$$
 $$v = \sqrt{\frac{700}{7}}$$
 $$v = \sqrt{100}$$
 $$v = 10 \text{ m/s}$$
 
-**Final Answer:**
 The velocity of the solid sphere at the bottom of the plane is **$10 \text{ m/s}$**.
