@@ -1,22 +1,33 @@
-The video shows a diagram of a system consisting of a "Planet A" and a "Moon" orbiting each other. The following physical parameters are provided:
+The video shows a diagram of two celestial bodies, Planet A and a Moon, with their respective masses and the closest distance between their centers.
 
+### Given Data:
 *   **Mass of Moon ($m$):** $2 \times 10^{22} \text{ kg}$
-*   **Mass of Planet A ($M$):** $6000 \text{ nanograms} = 6000 \times 10^{-9} \text{ g} = 6 \times 10^{-6} \text{ g} = 6 \times 10^{-9} \text{ kg}$
-*   **Radius of Planet A:** $100 \text{ nanometers} = 100 \times 10^{-9} \text{ m} = 10^{-7} \text{ m}$
-*   **Closest distance between centers ($d$):** $3 \times 10^9 \text{ meters}$
+*   **Mass of Planet A ($M$):** $6000 \text{ nanograms}$
+    *   To convert nanograms to kilograms: $1 \text{ nanogram} = 10^{-9} \text{ grams} = 10^{-12} \text{ kg}$
+    *   $M = 6000 \times 10^{-12} \text{ kg} = 6 \times 10^{-9} \text{ kg}$
+*   **Closest distance ($d$):** $3 \times 10^9 \text{ meters}$
+*   **Gravitational Constant ($G$):** $\approx 6.674 \times 10^{-11} \text{ N}\cdot\text{m}^2/\text{kg}^2$
 
-To calculate the gravitational force ($F$) between the two bodies, we use Newton's Law of Universal Gravitation:
+### Calculation:
+The gravitational force ($F$) between two spherically symmetric bodies is given by Newton's Law of Universal Gravitation:
+
 $$F = G \frac{M \cdot m}{d^2}$$
 
-Where:
-*   $G$ (Gravitational Constant) $\approx 6.674 \times 10^{-11} \text{ N}\cdot\text{m}^2/\text{kg}^2$
-*   $M = 6 \times 10^{-9} \text{ kg}$
-*   $m = 2 \times 10^{22} \text{ kg}$
-*   $d = 3 \times 10^9 \text{ m}$
+Substituting the given values:
 
-**Calculation:**
-$$F = \frac{(6.674 \times 10^{-11}) \cdot (6 \times 10^{-9}) \cdot (2 \times 10^{22})}{(3 \times 10^9)^2}$$
-$$F = \frac{80.088 \times 10^2}{9 \times 10^{18}}$$
-$$F \approx 8.898 \times 10^{-16} \text{ Newtons}$$
+$$F = (6.674 \times 10^{-11}) \frac{(6 \times 10^{-9}) \cdot (2 \times 10^{22})}{(3 \times 10^9)^2}$$
 
-The gravitational force between the two bodies at the given distance is approximately **$8.9 \times 10^{-16} \text{ N}$**.
+First, calculate the numerator:
+$$(6 \times 10^{-9}) \cdot (2 \times 10^{22}) = 12 \times 10^{13}$$
+
+Next, calculate the denominator:
+$$(3 \times 10^9)^2 = 9 \times 10^{18}$$
+
+Now, divide the results:
+$$\frac{12 \times 10^{13}}{9 \times 10^{18}} \approx 1.333 \times 10^{-5}$$
+
+Finally, multiply by $G$:
+$$F \approx (6.674 \times 10^{-11}) \cdot (1.333 \times 10^{-5})$$
+$$F \approx 8.898 \times 10^{-16} \text{ N}$$
+
+The gravitational force between the two bodies at the given distance is approximately $8.9 \times 10^{-16} \text{ Newtons}$.

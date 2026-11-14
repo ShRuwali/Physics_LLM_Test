@@ -1,7 +1,7 @@
 {
     "requested_model": "google/gemma-4-12B-it",
     "problem_question": "Problem_7_Regular_Q",
-    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the video.",
-    "total_output_tokens": 762,
-    "total_time_taken": 70.40136869799971
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the tension (T) in the cable. All the necessary values required are given in the video. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 725,
+    "total_time_taken": 70.20629575599969
 }

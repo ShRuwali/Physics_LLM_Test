@@ -1,7 +1,7 @@
 {
     "requested_model": "google/gemma-4-12B-it",
     "problem_question": "Problem_5_Regular_Q",
-    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the video.",
-    "total_output_tokens": 522,
-    "total_time_taken": 48.07990563800013
+    "prompt_name": "You are a physics expert. From the video provide a brief description and calculate the velocity of block A after the collision. All the necessary values and conditions required are given in the video. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 656,
+    "total_time_taken": 63.62026109699991
 }
