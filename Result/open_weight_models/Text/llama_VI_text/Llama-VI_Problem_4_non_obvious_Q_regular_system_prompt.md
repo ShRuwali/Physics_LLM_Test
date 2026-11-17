@@ -1,32 +1,38 @@
-To solve this problem, we need to consider the forces acting on the object at the bottom of the circle. There are three forces acting on the object: the tension in the string (T), the weight of the object (mg), and the centripetal force required to keep the object in circular motion.
+To solve this problem, we need to consider the forces acting on the object at the bottom of the circle. The forces acting on the object are:
 
-The centripetal force (F_c) is given by:
+1. Tension (T) in the string
+2. Weight (mg) of the object
+3. Centripetal force (F_c) required to keep the object in circular motion
+
+At the bottom of the circle, the net force acting on the object is the sum of the tension and the weight, which is equal to the centripetal force.
+
+We can write the equation for centripetal force as:
 
 F_c = (m * v^2) / R
 
 where m is the mass of the object, v is the speed of the object, and R is the radius of the circle.
 
-The weight of the object (mg) is acting downwards, and the tension in the string (T) is acting upwards. At the bottom of the circle, the net force acting on the object is zero, so we can set up the following equation:
-
-T - mg = (m * v^2) / R
-
-We are given the following values:
-
+We are given:
 m = 10 nanograms = 10 * 10^-9 kg
-R = 5.0 meters
 v = 5 m/s
-g = 10.0 m/s^2
+R = 5.0 meters
 
-Substituting these values into the equation, we get:
+Substituting these values into the equation for centripetal force, we get:
 
-T - (10 * 10^-9 kg * 10.0 m/s^2) = (10 * 10^-9 kg * (5 m/s)^2) / 5.0 m
+F_c = (10 * 10^-9 * 5^2) / 5.0
+F_c = (10 * 10^-9 * 25) / 5.0
+F_c = 0.05 * 10^-7 N
 
-Simplifying the equation, we get:
+The weight of the object is given by:
 
-T - 0.0001 N = 0.00005 N
+mg = 10 * 10^-9 * 10.0
+mg = 100 * 10^-9 N
 
-Adding 0.0001 N to both sides of the equation, we get:
+The tension in the string is the sum of the centripetal force and the weight:
 
-T = 0.00015 N
+T = F_c + mg
+T = 0.05 * 10^-7 + 100 * 10^-9
+T = 0.05 * 10^-7 + 0.1 * 10^-7
+T = 0.15 * 10^-7 N
 
-Therefore, the tension in the string at the bottom of the circle is 0.00015 N.
+Therefore, the tension in the string at the bottom of the circle is 0.15 * 10^-7 N.

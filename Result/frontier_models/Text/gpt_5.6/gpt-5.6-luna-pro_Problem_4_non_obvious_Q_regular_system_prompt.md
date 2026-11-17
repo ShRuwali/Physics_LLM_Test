@@ -1,8 +1,8 @@
-At the bottom of the circle, the tension provides the upward centripetal force and also balances the weight:
+At the bottom of the circle, the tension provides the centripetal force and must also support the weight:
 
-T − mg = m v²/R
+T − mg = mv²/R
 
-So,
+Therefore:
 
 T = m(g + v²/R)
 
@@ -17,10 +17,9 @@ Centripetal acceleration:
 
 v²/R = 25/5 = 5 m/s²
 
-Therefore,
+Thus:
 
 T = 1.0 × 10⁻¹¹ × (10 + 5)
-
 T = 1.5 × 10⁻¹⁰ N
 
-The tension at the bottom is 1.5 × 10⁻¹⁰ newtons.
+The tension in the string is 1.5 × 10⁻¹⁰ newtons.

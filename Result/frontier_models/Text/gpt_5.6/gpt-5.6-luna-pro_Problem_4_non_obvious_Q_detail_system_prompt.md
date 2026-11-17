@@ -1,27 +1,29 @@
-At the bottom of the circle, the required centripetal acceleration is directed upward, toward the center.
+Mass: 10 nanograms = 1.0 × 10⁻¹¹ kg.
 
-Mass: 10 nanograms = 1.0 × 10⁻¹¹ kg
+At the bottom of the circle, the tension must provide:
 
-Centripetal force:
+- The centripetal force upward: m v² / R
+- The weight downward: mg
 
-m v²/R = (1.0 × 10⁻¹¹)(5²/5) = 5.0 × 10⁻¹¹ N
+Thus,
 
-The weight is:
+T = m v² / R + mg
+
+Centripetal term:
+
+m v² / R = (1.0 × 10⁻¹¹)(5²) / 5 = 5.0 × 10⁻¹¹ N
+
+Weight:
 
 mg = (1.0 × 10⁻¹¹)(10) = 1.0 × 10⁻¹⁰ N
 
-At the bottom:
+Therefore,
 
-T − mg = m v²/R
-
-Therefore:
-
-T = mg + m v²/R  
-T = 1.0 × 10⁻¹⁰ + 5.0 × 10⁻¹¹  
+T = 5.0 × 10⁻¹¹ + 1.0 × 10⁻¹⁰  
 T = 1.5 × 10⁻¹⁰ N
 
 So, the tension at the bottom is:
 
-**1.5 × 10⁻¹⁰ N**
+1.5 × 10⁻¹⁰ N
 
-Physical qualification: this is the instantaneous tension required at the bottom if the object is moving at 5 m/s along a circle of radius 5 m. Strictly speaking, uniform-speed vertical circular motion cannot be maintained by gravity and string tension alone, because gravity has a tangential component except at the top and bottom. Also, at the top the required tension would be negative, meaning the string would go slack. Thus, the stated complete uniform circular motion is not physically realizable without an additional force or mechanism.
+Physical consistency check: For the string to remain taut at the top, the speed must satisfy v²/R ≥ g. Here, v²/R = 5 m/s², while g = 10 m/s², so the string would require a negative tension at the top. Therefore, a freely hanging string cannot maintain this complete vertical circular motion at a constant speed of 5 m/s. The stated bottom tension is the instantaneous value assuming the object is constrained to follow the circle, but the full motion with a loose-free string is not physically possible.
