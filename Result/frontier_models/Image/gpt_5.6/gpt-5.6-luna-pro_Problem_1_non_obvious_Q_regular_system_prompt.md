@@ -1,33 +1,41 @@
-The figure shows a $1$-nanogram block sliding along a $30^\circ$ inclined plane for a distance of $5.0$ m. The coefficient is given as $\mu_k=-0.50$, where the negative sign indicates that friction acts opposite the direction of motion.
+The figure shows a block on a $30^\circ$ inclined plane. The coefficient of kinetic friction is $\mu_k=0.50$, and the block travels a distance of $5.0\ \text{m}$. The mass and dimensions do not affect the acceleration.
 
-Assuming the block starts from rest and moves down the incline, take down the plane as positive:
+Assuming the block is released from rest and slides down the incline:
 
-$$
-a=g(\sin\theta+\mu_k\cos\theta)
-$$
+The net acceleration down the plane is
 
 $$
-a=10.0\left(\sin30^\circ-0.50\cos30^\circ\right)
+a=g\left(\sin\theta-\mu_k\cos\theta\right)
+$$
+
+Substituting the given values,
+
+$$
+a=10\left(\sin30^\circ-0.50\cos30^\circ\right)
 $$
 
 $$
-a=10.0\left(\frac{1}{2}-\frac{\sqrt{3}}{4}\right)
-=\frac{5}{2}(2-\sqrt{3})\ \text{m/s}^2
+a=10\left(\frac{1}{2}-\frac{\sqrt{3}}{4}\right)
+=\frac{5}{2}\left(2-\sqrt{3}\right)
+\approx 0.670\ \text{m/s}^2
 $$
 
-Using $s=\frac{1}{2}at^2$ with $s=5.0$ m:
+Using $s=\frac{1}{2}at^2$ with $s=5.0\ \text{m}$,
 
 $$
-5.0=\frac{1}{2}\left[\frac{5}{2}(2-\sqrt{3})\right]t^2
+t=\sqrt{\frac{2s}{a}}
 $$
 
 $$
 t=\sqrt{\frac{10}{\frac{5}{2}(2-\sqrt{3})}}
-=2\sqrt{2+\sqrt{3}}\ \text{s}
+=2\sqrt{2+\sqrt{3}}
+\approx 3.86\ \text{s}
 $$
 
+Therefore, the total time taken is
+
 $$
-\boxed{t\approx3.86\ \text{s}}
+\boxed{t\approx 3.86\ \text{s}}
 $$
 
-The mass and block dimensions do not affect the result because they cancel from the force equation.
+This result assumes the block starts from rest and moves down the incline.
