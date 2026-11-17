@@ -1,61 +1,44 @@
-### Description of the Figure
+**Description of the Figure:**
 
-The figure depicts a block of mass $m = 1\text{ nanogram}$ resting on an inclined plane that makes an angle of $\theta = 30^\circ$ with the horizontal ground. The block is to travel a distance of $d = 5.0\text{ meters}$ down the incline. 
-
-Given parameters from the image:
-* Angle of inclination: $\theta = 30^\circ$
-* Distance to travel: $d = 5.0\text{ m}$
-* Coefficient of kinetic friction: $\mu_k = 0.50$
-* Acceleration due to gravity: $g = 10.0\text{ m/s}^2$
-* Mass of the block: $m = 1\text{ nanogram}$ (Note: Mass cancels out during acceleration calculations and does not affect the final time.)
+The figure shows a block of mass $m = 1\text{ nanogram}$ with dimensions $1\text{ nm} \times 1\text{ nm} \times 1\text{ nm}$ located on an inclined plane at an angle of $\theta = 30^\circ$. The block is at a distance of $d = 5.0\text{ meters}$ along the inclined surface measured from the bottom. The coefficient of kinetic friction between the incline and the block is $\mu_k = 0.50$, and the acceleration due to gravity is $g = 10.0\text{ m/s}^2$.
 
 ---
 
-### Calculation of Total Time Taken
+**Calculation of Total Time:**
 
-#### Step 1: Find the acceleration of the block down the incline
-
-The forces acting on the block parallel to the inclined plane are:
-1. The component of gravity pulling the block down the plane:
-$$F_{\text{gravity}} = m g \sin\theta$$
-
-2. The normal force perpendicular to the plane:
+**1. Normal Force and Friction Force:**
+The normal force $N$ perpendicular to the inclined plane is given by:
 $$N = m g \cos\theta$$
 
-3. The friction force opposing the sliding motion up the plane:
+The kinetic friction force $f_k$ opposing the downward motion along the incline is:
 $$f_k = \mu_k N = \mu_k m g \cos\theta$$
 
-The net force acting along the incline is:
+**2. Net Force and Acceleration:**
+The gravitational force component directing the block down the inclined plane is:
+$$F_g = m g \sin\theta$$
+
+The net force acting down the incline is:
 $$F_{\text{net}} = m g \sin\theta - \mu_k m g \cos\theta$$
 
-Using Newton's second law ($F_{\text{net}} = m a$), the acceleration $a$ down the incline is:
+Applying Newton's second law ($F_{\text{net}} = m a$), the acceleration $a$ is independent of the mass $m$:
 $$a = g (\sin\theta - \mu_k \cos\theta)$$
 
-Substitute the known values into the equation:
-$$\sin 30^\circ = 0.5$$
-$$\cos 30^\circ = \frac{\sqrt{3}}{2} \approx 0.8660$$
+Substitute the given values into the equation ($\theta = 30^\circ$, $\mu_k = 0.50$, $g = 10.0\text{ m/s}^2$):
+$$a = 10.0 \times \left(\sin 30^\circ - 0.50 \cos 30^\circ\right)$$
+$$a = 10.0 \times \left(0.5 - 0.50 \times \frac{\sqrt{3}}{2}\right)$$
+$$a = 10.0 \times (0.5 - 0.43301)$$
+$$a = 0.66987\text{ m/s}^2$$
 
-$$a = 10.0 \times (0.5 - 0.50 \times 0.8660)$$
-$$a = 10.0 \times (0.5 - 0.4330)$$
-$$a = 10.0 \times 0.0670 = 0.670\text{ m/s}^2$$
-
----
-
-#### Step 2: Calculate the time taken to travel $5.0\text{ meters}$
-
-Assuming the block starts sliding from rest ($v_0 = 0\text{ m/s}$), we use the kinematic equation for displacement:
-$$d = v_0 t + \frac{1}{2} a t^2$$
-
-Since $v_0 = 0$:
+**3. Total Time Taken:**
+Using the equation of motion for a block starting from rest ($v_0 = 0$):
 $$d = \frac{1}{2} a t^2$$
 
 Solving for time $t$:
 $$t = \sqrt{\frac{2d}{a}}$$
 
-Substituting $d = 5.0\text{ m}$ and $a = 0.670\text{ m/s}^2$:
-$$t = \sqrt{\frac{2 \times 5.0}{0.670}}$$
-$$t = \sqrt{\frac{10.0}{0.670}}$$
-$$t = \sqrt{14.925} \approx 3.86\text{ seconds}$$
+Substitute $d = 5.0\text{ m}$ and $a = 0.66987\text{ m/s}^2$:
+$$t = \sqrt{\frac{2 \times 5.0}{0.66987}}$$
+$$t = \sqrt{14.9282}$$
+$$t \approx 3.86\text{ seconds}$$
 
-### Final Result
-The total time taken by the block to travel $5.0\text{ meters}$ is approximately **$3.86\text{ seconds}$**.
+The total time taken by the block to travel $5.0\text{ meters}$ down the plane is approximately $3.86\text{ seconds}$.
