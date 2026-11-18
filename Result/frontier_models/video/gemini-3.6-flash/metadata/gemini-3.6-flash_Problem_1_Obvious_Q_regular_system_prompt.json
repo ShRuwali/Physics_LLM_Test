@@ -1,0 +1,13 @@
+{
+    "requested_model": "google/gemini-3.6-flash",
+    "returned_model": "google/gemini-3.6-flash",
+    "response_id": "gen-1795034474-Jd9bakTQ535LR6SPaOYQ",
+    "prompt_name": "Problem_1_Obvious_Q",
+    "system_prompt": "You are a physics expert. From the video provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the video. Format your answer as Markdown. Use LaTeX for all mathematical notation.Use $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "generation_settings": {},
+    "token_usage": {
+        "input_tokens": 502,
+        "output_tokens": 6759,
+        "total_tokens": 7261
+    }
+}
