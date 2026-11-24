@@ -1,30 +1,30 @@
 ## Description
 
-The figure shows Planet A and a moon separated by a center-to-center distance of
+The figure shows Planet A and a much more massive moon separated by a center-to-center distance of
 
 $$
-d = 3.0 \times 10^9\ \mathrm{m}.
+d = 3.0 \times 10^{9}\ \text{m}.
 $$
 
-Planet A has mass $M = 6000$ nanograms and radius $100\ \mathrm{m}$, while the moon has mass
+The given masses are:
+
+- Planet A: $M = 6000\ \text{nanograms}$
+- Moon: $m = 2.0 \times 10^{22}\ \text{kg}$
+
+Since both bodies are spherically symmetric and their separation is much larger than their radii, each body can be treated as a point mass located at its center.
+
+## Mass conversion
+
+Because $1\ \text{nanogram} = 10^{-12}\ \text{kg}$,
 
 $$
-m = 2.0 \times 10^{22}\ \mathrm{kg}.
+M = 6000 \times 10^{-12}
+= 6.0 \times 10^{-9}\ \text{kg}.
 $$
-
-Because both bodies are spherically symmetric, their gravitational interaction can be treated as if all of each body's mass were concentrated at its center.
 
 ## Gravitational force
 
-Convert the mass of Planet A to kilograms:
-
-$$
-M = 6000\ \mathrm{ng}
-= 6000 \times 10^{-12}\ \mathrm{kg}
-= 6.0 \times 10^{-9}\ \mathrm{kg}.
-$$
-
-Using Newton's law of universal gravitation,
+Using Newton’s law of universal gravitation,
 
 $$
 F = \frac{G M m}{d^2},
@@ -33,7 +33,7 @@ $$
 where
 
 $$
-G = 6.67430 \times 10^{-11}\ \mathrm{N\,m^2\,kg^{-2}}.
+G = 6.674 \times 10^{-11}\ \text{N}\,\text{m}^2\text{/kg}^2.
 $$
 
 Substituting the values,
@@ -41,18 +41,18 @@ Substituting the values,
 $$
 F =
 \frac{
-(6.67430 \times 10^{-11})
+(6.674 \times 10^{-11})
 (6.0 \times 10^{-9})
 (2.0 \times 10^{22})
 }{
-(3.0 \times 10^9)^2
+(3.0 \times 10^{9})^2
 }.
 $$
 
 Therefore,
 
 $$
-\boxed{F \approx 8.9 \times 10^{-16}\ \mathrm{N}}.
+\boxed{F \approx 8.9 \times 10^{-16}\ \text{N}}.
 $$
 
-The two bodies exert forces of equal magnitude, $8.9 \times 10^{-16}\ \mathrm{N}$, on each other in opposite directions along the line joining their centers.
+The gravitational force is attractive. The moon pulls Planet A and Planet A pulls the moon with equal magnitudes of $8.9 \times 10^{-16}\ \text{N}$ in opposite directions along the line joining their centers.

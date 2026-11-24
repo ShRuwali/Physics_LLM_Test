@@ -1,13 +1,14 @@
-Use Newton’s law of universal gravitation:
+Convert the planet’s mass:
+
+- 6000 nanograms = 6.0 × 10⁻⁹ kg
+- Moon’s mass = 2.0 × 10²² kg
+- Separation = 3.0 × 10⁹ m
+
+Using Newton’s law of universal gravitation:
 
 F = G M m / d²
 
-Given:
-
-- Planet mass, M = 6000 nanograms = 6.0 × 10⁻⁹ kg
-- Moon mass, m = 2.0 × 10²² kg
-- Separation, d = 3.0 × 10⁹ m
-- Gravitational constant, G = 6.674 × 10⁻¹¹ N·m²/kg²
+where G = 6.674 × 10⁻¹¹ N·m²/kg².
 
 Substituting:
 
@@ -15,10 +16,10 @@ F = (6.674 × 10⁻¹¹)(6.0 × 10⁻⁹)(2.0 × 10²²) / (3.0 × 10⁹)²
 
 F ≈ 8.9 × 10⁻¹⁶ N
 
-Therefore, the gravitational force on each body is approximately:
+Therefore, the gravitational force between the two bodies is approximately:
 
 8.9 × 10⁻¹⁶ N
 
-The forces are equal in magnitude and opposite in direction.
+The force on each body has this same magnitude but acts in opposite directions.
 
-This calculation is physically justified under the spherical-symmetry assumption, provided the bodies do not overlap. However, the parameters are highly unrealistic: a 6000-nanogram planet has an extremely tiny mass, while the moon has a mass comparable to a planetary body. Thus, it would be more accurate to describe the two objects as a very massive body and an almost massless object orbiting their common center of mass, rather than as a normal planet–moon system.
+Physical note: The given parameters are highly unusual. A body with a mass of only 6.0 × 10⁻⁹ kg and a radius of 100 nanometers would have an extremely large density, about 1.4 × 10¹² kg/m³. Also, the “moon” is vastly more massive than Planet A, so dynamically it would be more accurate to regard the smaller body as orbiting the larger one, rather than the reverse. Nevertheless, assuming spherical symmetry and a separation much larger than the body sizes, the calculated Newtonian gravitational force is mathematically valid.

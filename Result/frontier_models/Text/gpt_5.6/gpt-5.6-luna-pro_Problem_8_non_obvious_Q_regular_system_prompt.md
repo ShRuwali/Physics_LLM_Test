@@ -1,15 +1,19 @@
-Use Newton’s law of universal gravitation:
+Convert the planet’s mass:
+
+- 6000 nanograms = 6000 × 10⁻¹² kg = 6.0 × 10⁻⁹ kg
+
+Using Newton’s law of universal gravitation:
 
 F = G M m / d²
 
-Given:
+where:
 
-- Planet mass: 6000 ng = 6.0 × 10⁻⁹ kg
-- Moon mass: 2.0 × 10²² kg
-- Center-to-center distance: 3.0 × 10⁹ m
-- Gravitational constant: G = 6.674 × 10⁻¹¹ N·m²/kg²
+- G = 6.674 × 10⁻¹¹ N·m²/kg²
+- M = 6.0 × 10⁻⁹ kg
+- m = 2.0 × 10²² kg
+- d = 3.0 × 10⁹ m
 
-Substitute:
+Substituting:
 
 F = (6.674 × 10⁻¹¹)(6.0 × 10⁻⁹)(2.0 × 10²²) / (3.0 × 10⁹)²
 
@@ -19,4 +23,4 @@ Therefore, the gravitational force between the planet and its moon is approximat
 
 8.9 × 10⁻¹⁶ N
 
-The force acts attractively, with each body exerting an equal and opposite force on the other.
+The forces on the two bodies are equal in magnitude and opposite in direction.

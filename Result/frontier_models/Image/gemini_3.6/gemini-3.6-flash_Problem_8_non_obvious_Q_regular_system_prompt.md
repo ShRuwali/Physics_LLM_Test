@@ -1,47 +1,50 @@
 ### Description
 
-The figure depicts a gravitational system consisting of two spherically symmetric bodies: Planet A and a Moon along an orbital path.
+The image illustrates a system consisting of two spherically symmetric celestial bodies: **Planet A** and its **Moon**, moving along an orbital path indicated by a dashed line. 
 
-* **Planet A**: Has a mass $M = 6000\text{ nanograms}$ and a radius of $100\text{ meters}$.
-* **Moon**: Has a mass $m = 2.0 \times 10^{22}\text{ kg}$.
-* **Distance between centers**: Given as $d = 3.0 \times 10^9\text{ meters}$.
+- **Planet A** has a mass of $M = 6000 \text{ nanograms}$ and a radius of $100 \text{ nanometers}$.
+- The **Moon** has a mass of $m = 2.0 \times 10^{22} \text{ kg}$.
+- The distance between the centers of the two bodies is $d = 3.0 \times 10^9 \text{ meters}$.
 
 ---
 
 ### Calculation of Gravitational Force
 
-According to Newton's Law of Universal Gravitation, the magnitude of the gravitational force $F$ between two spherically symmetric bodies is given by:
+To calculate the magnitude of the gravitational force exerted by the two bodies on each other, we use Newton's Law of Universal Gravitation:
 
-$$F = G \frac{M m}{d^2}$$
+$$F = G \frac{M \cdot m}{d^2}$$
 
-#### Given Values:
-* Gravitational Constant: $G = 6.674 \times 10^{-11}\text{ N}\cdot\text{m}^2/\text{kg}^2$
-* Mass of Planet A: $M = 6000\text{ ng} = 6000 \times 10^{-12}\text{ kg} = 6.0 \times 10^{-9}\text{ kg}$
-* Mass of the Moon: $m = 2.0 \times 10^{22}\text{ kg}$
-* Distance between centers: $d = 3.0 \times 10^9\text{ m}$
+#### 1. Convert Given Values to SI Units
 
-#### Substitution and Steps:
+- Mass of Planet A ($M$):
+$$M = 6000 \text{ nanograms} = 6000 \times 10^{-9} \text{ grams} = 6.0 \times 10^{-9} \text{ kg}$$
 
-Substitute these values into the formula:
+- Mass of Moon ($m$):
+$$m = 2.0 \times 10^{22} \text{ kg}$$
 
-$$F = \frac{(6.674 \times 10^{-11}) \times (6.0 \times 10^{-9}) \times (2.0 \times 10^{22})}{(3.0 \times 10^9)^2}$$
+- Distance between centers ($d$):
+$$d = 3.0 \times 10^9 \text{ m}$$
 
-Calculate the numerator:
+- Universal Gravitational Constant ($G$):
+$$G = 6.674 \times 10^{-11} \text{ N}\cdot\text{m}^2/\text{kg}^2$$
 
-$$\text{Numerator} = 6.674 \times 6.0 \times 2.0 \times 10^{-11 - 9 + 22} = 80.088 \times 10^2 = 8.0088 \times 10^3\text{ N}\cdot\text{m}^2$$
+#### 2. Substitute into the Gravitational Formula
 
-Calculate the denominator:
+$$F = \frac{(6.674 \times 10^{-11} \text{ N}\cdot\text{m}^2/\text{kg}^2) \times (6.0 \times 10^{-9} \text{ kg}) \times (2.0 \times 10^{22} \text{ kg})}{(3.0 \times 10^9 \text{ m})^2}$$
 
-$$\text{Denominator} = (3.0 \times 10^9)^2 = 9.0 \times 10^{18}\text{ m}^2$$
+#### 3. Compute the Values
 
-Divide the numerator by the denominator:
+- Numerator:
+$$(6.674 \times 10^{-11}) \times (6.0 \times 10^{-9}) \times (2.0 \times 10^{22}) = 8008.8$$
 
-$$F = \frac{8.0088 \times 10^3}{9.0 \times 10^{18}}$$
+- Denominator:
+$$(3.0 \times 10^9)^2 = 9.0 \times 10^{18}$$
 
-$$F \approx 8.90 \times 10^{-16}\text{ N}$$
+- Division:
+$$F = \frac{8008.8}{9.0 \times 10^{18}} \approx 8.8987 \times 10^{-16} \text{ N}$$
 
 ---
 
-### Final Result
+### Final Answer
 
-The gravitational force exerted by each body on the other at the given distance is approximately $8.90 \times 10^{-16}\text{ N}$.
+The gravitational force between Planet A and the Moon is approximately **$8.9 \times 10^{-16} \text{ N}$**.
