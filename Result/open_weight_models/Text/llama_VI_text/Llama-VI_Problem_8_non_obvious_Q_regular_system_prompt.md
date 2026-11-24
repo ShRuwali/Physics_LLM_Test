@@ -1,32 +1,26 @@
-To calculate the gravitational force between the planet and its moon, we can use Newton's law of universal gravitation, which states that the gravitational force between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
+To calculate the gravitational force between the planet and its moon, we can use the universal law of gravitation, which states that the gravitational force between two objects is proportional to the product of their masses and inversely proportional to the square of the distance between their centers.
 
 The formula for the gravitational force is:
 
 F = G \* (M \* m) / r^2
 
-where:
-- F is the gravitational force
-- G is the gravitational constant (6.674 * 10^-11 N m^2 kg^-2)
-- M is the mass of the planet (6000 nanograms = 6 * 10^-9 kg)
-- m is the mass of the moon (2.0 * 10^22 kg)
-- r is the distance between the centers of the two bodies (3.0 * 10^9 meters)
+However, we need to convert the mass of the planet from nanograms to kilograms. 
 
-Now, let's plug in the values:
+1 nanogram = 10^-9 grams
+1 gram = 10^-3 kilograms
+So, 1 nanogram = 10^-12 kilograms
+
+M = 6000 nanograms = 6000 * 10^-12 kilograms = 6 * 10^-9 kilograms
+
+Now, we can plug in the values:
+
+G = 6.674 * 10^-11 N m^2 kg^-2 (gravitational constant)
+M = 6 * 10^-9 kilograms
+m = 2.0 * 10^22 kilograms
+r = 3.0 * 10^9 meters
 
 F = (6.674 * 10^-11) * (6 * 10^-9 * 2.0 * 10^22) / (3.0 * 10^9)^2
-
-First, calculate the numerator:
-(6.674 * 10^-11) * (6 * 10^-9 * 2.0 * 10^22) = (6.674 * 6 * 2.0) * 10^(-11 + (-9) + 22)
-= 80.088 * 10^12
-= 8.0088 * 10^14
-
-Now, calculate the denominator:
-(3.0 * 10^9)^2 = 9.0 * 10^18
-
-Now, divide the numerator by the denominator:
-F = 8.0088 * 10^14 / 9.0 * 10^18
-= 8.0088 / 9.0 * 10^(14 - 18)
-= 0.89098 * 10^-4
-= 8.9098 * 10^-5
-
-So, the gravitational force between the planet and its moon at this location is approximately 8.91 * 10^-5 Newtons.
+F = (6.674 * 10^-11) * (12 * 10^13) / (9 * 10^18)
+F = (6.674 * 10^-11) * (1.333 * 10^6) / (9 * 10^18)
+F = 8.83 * 10^-4 / 9 * 10^18
+F = 9.82 * 10^-22 N
