@@ -1,7 +1,7 @@
 {
     "requested_model": "google/gemma-4-12B-it",
     "problem_question": "Problem_1_Regular_Q",
-    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture.",
-    "total_output_tokens": 703,
-    "total_time_taken": 66.34866537199991
+    "prompt_name": "You are a physics expert. From the figure provide a brief description and calculate the total time taken by the block to travel 5 meters. All the necessary values required are given in the picture. Your answers should show exact equations and should not have Latex commands in itUse $...$ for inline equations. For display equations, put $$ on its own line before and after the equation. Do not wrap the response or equations in backticks or code fences.Use one backslash per LaTeX command, such as \\frac or \\sqrt.",
+    "total_output_tokens": 734,
+    "total_time_taken": 71.88965471599994
 }

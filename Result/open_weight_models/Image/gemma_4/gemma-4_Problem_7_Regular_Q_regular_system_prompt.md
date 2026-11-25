@@ -1,40 +1,38 @@
-Based on the image provided, here is the description and the calculation for the tension in the cable.
+### Description
+The image depicts a physical system where a solid block is suspended in a tank of sea water by a cable. The block is in a state of static equilibrium, meaning the net force acting on it is zero. To find the tension in the cable, we must consider three primary forces acting on the block:
+1. **Weight ($W$):** The downward force due to gravity.
+2. **Buoyant Force ($F_b$):** The upward force exerted by the sea water.
+3. **Tension ($T$):** The upward force exerted by the cable.
 
-### **Description**
-The figure shows a block of mass $m$ suspended by a cable in a tank of sea water. The block is in a state of static equilibrium, meaning it is stationary. In this state, three forces are acting on the block:
-1.  **Weight ($W$):** Acting vertically downwards.
-2.  **Buoyant Force ($F_B$):** Acting vertically upwards (due to the displacement of sea water).
-3.  **Tension ($T$):** Acting vertically upwards through the cable.
+### Calculation of Tension ($T$)
 
-### **Given Data**
-*   Mass of the block ($m$) = $20.0\text{ kg}$
-*   Density of the block ($D$) = $19.0 \times 10^3\text{ kg/m}^3$
-*   Density of sea water ($d$) = $1.03 \times 10^3\text{ kg/m}^3$
-*   Acceleration due to gravity ($g$) = $10.0\text{ m/s}^2$
+**1. Identify Given Values:**
+*   Mass of the block ($m$) = $20.0 \text{ kg}$
+*   Density of the block ($D$) = $19.0 \times 10^3 \text{ kg/m}^3$
+*   Density of sea water ($d$) = $1.03 \times 10^3 \text{ kg/m}^3$
+*   Acceleration due to gravity ($g$) = $10.0 \text{ m/s}^2$
 
----
+**2. Calculate the Volume of the Block ($V$):**
+Using the formula for density $D = \frac{m}{V}$, we can find the volume:
+$$V = \frac{m}{D}$$
+$$V = \frac{20.0 \text{ kg}}{19.0 \times 10^3 \text{ kg/m}^3} \approx 0.0010526 \text{ m}^3$$
 
-### **Calculation**
+**3. Calculate the Weight of the Block ($W$):**
+$$W = m \cdot g$$
+$$W = 20.0 \text{ kg} \cdot 10.0 \text{ m/s}^2 = 200 \text{ N}$$
 
-**Step 1: Calculate the Volume of the block ($V$)**
-Using the formula $\text{Density} = \frac{\text{Mass}}{\text{Volume}}$:
-$$V = \frac{m}{D} = \frac{20.0\text{ kg}}{19.0 \times 10^3\text{ kg/m}^3} \approx 0.0010526\text{ m}^3$$
-
-**Step 2: Calculate the Weight of the block ($W$)**
-$$W = m \cdot g = 20.0\text{ kg} \times 10.0\text{ m/s}^2 = 200\text{ N}$$
-
-**Step 3: Calculate the Buoyant Force ($F_B$)**
+**4. Calculate the Buoyant Force ($F_b$):**
 The buoyant force is equal to the weight of the fluid displaced by the block:
-$$F_B = V \cdot d \cdot g$$
-$$F_B = 0.0010526\text{ m}^3 \times (1.03 \times 10^3\text{ kg/m}^3) \times 10.0\text{ m/s}^2$$
-$$F_B \approx 10.84\text{ N}$$
+$$F_b = d \cdot V \cdot g$$
+$$F_b = (1.03 \times 10^3 \text{ kg/m}^3) \cdot (0.0010526 \text{ m}^3) \cdot (10.0 \text{ m/s}^2)$$
+$$F_b \approx 10.84 \text{ N}$$
 
-**Step 4: Calculate the Tension ($T$)**
-Since the block is in equilibrium, the upward forces must equal the downward forces:
-$$T + F_B = W$$
-$$T = W - F_B$$
-$$T = 200\text{ N} - 10.84\text{ N}$$
-$$T = 189.16\text{ N}$$
+**5. Calculate the Tension ($T$):**
+Since the block is in equilibrium, the sum of the upward forces equals the sum of the downward forces:
+$$T + F_b = W$$
+$$T = W - F_b$$
+$$T = 200 \text{ N} - 10.84 \text{ N}$$
+$$T = 189.16 \text{ N}$$
 
 **Final Answer:**
-The tension in the cable is approximately **$189.16\text{ N}$**.
+The tension in the cable is approximately $189.16 \text{ N}$.
